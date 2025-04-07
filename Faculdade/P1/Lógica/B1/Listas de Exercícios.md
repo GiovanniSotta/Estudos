@@ -1,0 +1,123 @@
+1. (Rosen 1.1.1) Quais das sentenças abaixo são proposições? Qual o valor de verdade das que são proposições?
+    
+    (a) Curitiba é a capital do Paraná.
+    
+    (b) Joinville é a capital de Santa Catarina.
+    
+    (c) 2 + 3 = 5
+    
+    (d) 5 + 7 = 10
+    
+    (e) x + 2 = 11
+    
+    (f) Responda a esta questão.
+    
+	R: (a), (b), (c) e (d) são proposições. Seus valores de verdade são: V, F, V e F, respectivamente.
+	
+2. (Rosen 1.1.5) Considere que _p_ e _q_ são as proposições: _“Nadar na praia em Copacabana é permitido”_ e _“Foram descobertos tubarões perto da praia”_, respectivamente. Expresse cada uma dessas proposições compostas como uma sentença em português.
+    
+    (a) ¬q
+    R: Não foram descobertos tubarões perto da praia.
+    (b) p ∧ q
+    R: Nadar na praia em Copacabana é permitido e foram descobertos tubarões perto da praia.
+    (c) ¬p ∨ q
+    R: Não é permitido nadar na praia de Copacabana ou foram descobertos tubarões perto da praia
+    (d) p → ¬q
+	R: Se nadar na praia de Copacabana é permitido, então não foram descobertos tubarões perto da praia
+    (g) p ↔ ¬q
+    R: É permitido nadar na praia de Copacabana se, e somente se, não forem descobertos tubarões perto da praia
+    (h) ¬p ∧ (p ∨ ¬q)
+    R: Não é permitido nadar na praia de Copacabana ou 
+3. (Rosen 1.1.7) Considere que _p_ e _q_ são as proposições:
+    
+    - _p: “Está abaixo de zero.”_
+    - _q: “Está nevando.”_
+    
+    Escreva estas proposições usando _p_, _q_ e conectivos lógicos.
+    
+    (a) Está abaixo de zero e nevando.
+    
+    (b) Está abaixo de zero, mas não está nevando.
+    
+    (c) Não está abaixo de zero e não está nevando.
+    
+    (d) Está nevando ou abaixo de zero (ou os dois).
+    
+    (e) Se está abaixo de zero, está também nevando.
+    
+    (f) Está ou nevando ou abaixo de zero, mas não está nevando se estiver abaixo de zero.
+    
+    (g) Para que esteja nevando, é necessário e suficiente que esteja abaixo de zero.
+    
+4. (Rosen 1.1.11) Sejam p, q e r as seguintes proposições:
+    
+    - _p: “Ursos-cinzentos são vistos na área.”_
+    - _q: “Fazer caminhada na trilha é seguro.”_
+    - _r: “As bagas estão maduras ao longo da trilha.”_
+    
+    Escreva as seguintes proposições utilizando _p_, _q_, _r_ e conectivos lógicos.
+    
+    (a) As bagas estão maduras ao longo da trilha, mas os ursos-cinzentos não são vistos na área.
+    
+    (b) Ursos-cinzentos não são vistos na área e fazer caminhada na trilha é seguro, mas as bagas estão maduras ao longo da trilha.
+    
+    (c) Se as bagas estão maduras ao longo da trilha, fazer caminhada é seguro se, e somente se, ursos-cinzentos não forem vistos na área.
+    
+    (d) Não é seguro fazer caminhada na trilha, mas os ursos-cinzentos não são vistos na área e as bagas ao longo da trilha estão maduras.
+    
+    (e) Para a caminhada ser segura, é necessário, mas não suficiente, que as bagas não estejam maduras ao longo da trilha e que os ursos-cinzentos não sejam vistos na área.
+    
+    (f) Caminhada não é segura ao longo da trilha sempre que os ursos-cinzentos são vistos na área e as bagas estão maduras ao longo da trilha.
+    
+5. (Rosen 1.1.13) Determine se cada uma destas proposições condicionais é verdadeira ou falsa.
+    
+    (a) Se 1 + 1 = 2, então 2 + 2 = 5.
+    
+    (b) Se 1 + 1 = 3, então 2 + 2 = 4.
+    
+    (c) Se 1 + 1 = 3, então 2 + 2 = 5.
+    
+    (d) Se macacos puderem voar, então 1 + 1 = 3.
+    
+6. (Rosen 1.1.17) Reescreva cada sentença em português explicitando o que ela significa caso o “ou” utilizado seja inclusivo (ou seja, uma disjunção) e o que ela significa caso o “ou” utilizado seja exclusivo. Quais dos significados do “ou” você acha que o autor queria usar?
+    
+    (a) Para cursar matemática discreta, você deve ter tido cálculo ou um curso de ciência da computação.
+    
+    (b) Quando você compra um novo carro da Companhia Acme Motor, você pega de volta $2.000 ou um empréstimo de 2%.
+    
+7. (Rosen 1.1.19) Escreva cada uma das proposições abaixo na forma _“se p, então q”_ em português.
+    
+    (a) Neva sempre que o vento sopra no Nordeste.
+    
+    (d) É necessário andar 8 quilômetros para chegar ao topo do monte Roraima.
+    
+    (e) Para conseguir ser efetivado como professor, é suficiente ser famoso na universidade.
+    
+    (g) Sua garantia é válida apenas se você comprou seu aparelho de som em menos de 90 dias.
+    
+    (h) Yogananda nadará a menos que a água esteja muito fria.
+    
+8. (Rosen 1.1.23) Determine a oposta/conversa, a contrapositiva e a inversa de cada uma das proposições condicionais.
+    
+    (a) Se nevar hoje, então esquiarei amanhã.
+    
+    (b) Se há uma prova, então eu venho à aula.
+    
+9. (Rosen 1.1.27) Construa a tabela da verdade para cada uma das proposições compostas abaixo.
+    
+    (a) (Rosen 1.1.27, item (c)) (p ∨ ¬q) → q)
+    
+    (b) (Rosen 1.1.27, item (e)) (p → q) ↔ (¬q → ¬p)
+    
+    (c) (Rosen 1.1.29, item (b)) (p ⊕ q) → (p ∧ q)
+    
+10. (Rosen 1.1.38) Dê os valores de cada uma destas expressões.
+    
+    (a) 11000 ∧ (01011 ∨ 11011)
+    
+    (c) (01010 ⊕ 11011) ⊕ 01000
+    
+11. (Rosen, 8th Edition, 1.2.9) Determine se as seguintes especificações de um sistema são consistentes.
+    
+
+_“O sistema está no estado multiusuário se, e somente se, estiver operando normalmente. Se o sistema estiver operando normalmente, o kernel está funcionando. O kernel não está funcionando ou o sistema está no modo de interrupção. Se o sistema não estiver no estado multiusuário, então está no modo de interrupção. O sistema não está no modo de interrupção.”_
