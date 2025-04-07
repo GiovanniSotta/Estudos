@@ -98,13 +98,13 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Faculdade/P1/Lógica/Aula 3.md",
-            "collapseAll": false,
-            "extraContext": false,
+            "file": "Faculdade/P1/Lógica/Aula 5.md",
+            "collapseAll": true,
+            "extraContext": true,
             "sortOrder": "alphabetical",
-            "showSearch": false,
+            "showSearch": true,
             "searchQuery": "",
-            "backlinkCollapsed": true,
+            "backlinkCollapsed": false,
             "unlinkedCollapsed": true
           },
           "icon": "links-coming-in",
@@ -154,7 +154,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d470d96987a6985f",
+  "active": "9acc3bbad7f98b58",
   "lastOpenFiles": [
     "README.md",
     "sync_obsidian.bat",
