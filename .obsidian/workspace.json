@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Faculdade/P1/amateus.md",
+                "file": "Faculdade/P1/Lógica/Aula 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "amateus"
+              "title": "Aula 3"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Faculdade/P1/lujk.md",
+                "file": "Faculdade/P1/Lógica/Aula 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lujk"
+              "title": "Aula 3"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Faculdade/P1/Fundamentos de Programação/Aulas/Conceitos de programação - Tipos de Dados e variáveis.md",
+                "file": "Faculdade/P1/Lógica/Aula 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Conceitos de programação - Tipos de Dados e variáveis"
+              "title": "Links inversos para Aula 3"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Faculdade/P1/Fundamentos de Programação/Aulas/Conceitos de programação - Tipos de Dados e variáveis.md",
+                "file": "Faculdade/P1/Lógica/Aula 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Conceitos de programação - Tipos de Dados e variáveis"
+              "title": "Links de saída para Aula 3"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Faculdade/P1/Fundamentos de Programação/Aulas/Conceitos de programação - Tipos de Dados e variáveis.md",
+                "file": "Faculdade/P1/Lógica/Aula 3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Conceitos de programação - Tipos de Dados e variáveis"
+              "title": "Sumário de Aula 3"
             }
           },
           {
@@ -176,12 +176,12 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,20 +197,20 @@
   "active": "83ea6c70e440d443",
   "lastOpenFiles": [
     "Faculdade/P1/amateus.md",
+    "Faculdade/P1/Lógica/Aula 3.md",
+    "Faculdade/P1/Fundamentos de Programação/Aulas/Conceitos de programação - Tipos de Dados e variáveis.md",
+    "Faculdade/P1/Fundamentos de Programação/Aulas/Introdução Programação CSharp.md",
     "Faculdade/P1/lujk.md",
     "lkjlkj",
-    "Faculdade/P1/Lógica/Aula 3.md",
     "teste",
     "Faculdade/P1/Lógica/B1/Listas de Exercícios.md",
     "Faculdade/P1/Lógica/B1/Exercícios iniciados em Sala.md",
-    "Faculdade/P1/Fundamentos de Programação/Aulas/Conceitos de programação - Tipos de Dados e variáveis.md",
     "PNGs",
     "Bem-vindo.md",
     "PNGs/Pasted image 20250406182821.png",
     "PNGs/Pasted image 20250406182852.png",
     "Faculdade/P1/Lógica/B1",
     "Faculdade/P1/Lógica",
-    "Faculdade/P1/Fundamentos de Programação/Aulas/Introdução Programação CSharp.md",
     "Faculdade/P1/Fundamentos de Programação/Aulas",
     "Faculdade/P1/Fundamentos de Programação",
     "Faculdade/P1",
