@@ -27,7 +27,7 @@
     (g) p ↔ ¬q
     R: É permitido nadar na praia de Copacabana se, e somente se, não forem descobertos tubarões perto da praia
     (h) ¬p ∧ (p ∨ ¬q)
-    R:  ¬p∧
+    R:  N
 3. (Rosen 1.1.7) Considere que _p_ e _q_ são as proposições:
     
     - _p: “Está abaixo de zero.”_
