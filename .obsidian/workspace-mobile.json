@@ -11,10 +11,14 @@
             "id": "d470d96987a6985f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Faculdade/P1/Lógica/Aula 3.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Aula 3"
             }
           }
         ]
@@ -94,6 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Faculdade/P1/Lógica/Aula 3.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -159,8 +164,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3fa5f3e2cf827dd6",
+  "active": "d470d96987a6985f",
   "lastOpenFiles": [
+    "/Faculdade/P1/Lógica/B1/Listas de Exercícios.md",
+    "/Faculdade/P1/Lógica/B1",
+    "Faculdade/P1/Lógica/Aula 5.md",
     "Faculdade/P1/Lógica/Aula 3.md",
     "/Faculdade/P1/Lógica/Aula 3.md",
     "/Faculdade/P1/Lógica",
@@ -176,10 +184,8 @@
     "Faculdade/P1/Fundamentos de Programação/Aulas/Introdução Programação CSharp.md",
     "Faculdade/P1/Fundamentos de Programação/Aulas/Conceitos de programação - Tipos de Dados e variáveis.md",
     "Faculdade/P1/Lógica/B1",
-    "Faculdade/P1/Lógica/Aula 5.md",
     "Faculdade/P1/Fundamentos de Programação/Aulas",
     "Faculdade/P1/Lógica",
-    "Faculdade/P1/Fundamentos de Programação",
-    "Faculdade/P1"
+    "Faculdade/P1/Fundamentos de Programação"
   ]
 }
