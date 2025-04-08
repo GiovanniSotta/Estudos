@@ -1,0 +1,14 @@
+C:\Users\2025106973\source\repos\Consoleteste\Consoleteste\obj\Debug\net8.0\Consoleteste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2025106973\source\repos\Consoleteste\Consoleteste\obj\Debug\net8.0\Consoleteste.AssemblyInfoInputs.cache
+C:\Users\2025106973\source\repos\Consoleteste\Consoleteste\obj\Debug\net8.0\Consoleteste.AssemblyInfo.cs
+C:\Users\2025106973\source\repos\Consoleteste\Consoleteste\obj\Debug\net8.0\Consoleteste.csproj.CoreCompileInputs.cache
+C:\Users\2025106973\source\repos\Consoleteste\Consoleteste\bin\Debug\net8.0\Consoleteste.exe
+C:\Users\2025106973\source\repos\Consoleteste\Consoleteste\bin\Debug\net8.0\Consoleteste.deps.json
+C:\Users\2025106973\source\repos\Consoleteste\Consoleteste\bin\Debug\net8.0\Consoleteste.runtimeconfig.json
+C:\Users\2025106973\source\repos\Consoleteste\Consoleteste\bin\Debug\net8.0\Consoleteste.dll
+C:\Users\2025106973\source\repos\Consoleteste\Consoleteste\bin\Debug\net8.0\Consoleteste.pdb
+C:\Users\2025106973\source\repos\Consoleteste\Consoleteste\obj\Debug\net8.0\Consoleteste.dll
+C:\Users\2025106973\source\repos\Consoleteste\Consoleteste\obj\Debug\net8.0\refint\Consoleteste.dll
+C:\Users\2025106973\source\repos\Consoleteste\Consoleteste\obj\Debug\net8.0\Consoleteste.pdb
+C:\Users\2025106973\source\repos\Consoleteste\Consoleteste\obj\Debug\net8.0\Consoleteste.genruntimeconfig.cache
+C:\Users\2025106973\source\repos\Consoleteste\Consoleteste\obj\Debug\net8.0\ref\Consoleteste.dll

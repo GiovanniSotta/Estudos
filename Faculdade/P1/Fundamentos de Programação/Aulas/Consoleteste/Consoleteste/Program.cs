@@ -1,0 +1,13 @@
+﻿string numero;
+string numero2;
+int soma;
+Console.Write("Digite um numero: ");
+numero = Console.ReadLine();
+Console.WriteLine("Numero digitado: "+numero);
+Console.Write("Digite outro numero: ");
+numero2 = Console.ReadLine();
+Console.WriteLine("Numero digitado: " + numero2);
+Convert.ToInt32(numero);
+Convert.ToInt32(numero2);
+soma = numero + numero2;
+Console.WriteLine(soma);
