@@ -32,7 +32,7 @@
 		p é falso
 		¬q é verdadeiro
 		p V ¬q -> verdadeiro
-		
+		Não é permitido nadar na praia de Copacabana e é permitido nadar na praia de Copacabana ou não foram descobertos tubarões perto da praia.
 3. (Rosen 1.1.7) Considere que _p_ e _q_ são as proposições:
     
     - _p: “Está abaixo de zero.”_
