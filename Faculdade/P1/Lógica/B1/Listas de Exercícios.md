@@ -163,7 +163,7 @@
 10. (Rosen 1.1.38) Dê os valores de cada uma destas expressões.
     
     (a) 11000 ∧ (01011 ∨ 11011)
-    
+	    
     (c) (01010 ⊕ 11011) ⊕ 01000
     
 11. (Rosen, 8th Edition, 1.2.9) Determine se as seguintes especificações de um sistema são consistentes.
