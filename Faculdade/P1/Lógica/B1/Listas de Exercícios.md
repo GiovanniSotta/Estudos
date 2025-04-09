@@ -173,4 +173,41 @@
 
 	_“O sistema está no estado multiusuário se, e somente se, estiver operando normalmente. Se o sistema estiver operando normalmente, o kernel está funcionando. O kernel não está funcionando ou o sistema está no modo de interrupção. Se o sistema não estiver no estado multiusuário, então está no modo de interrupção. O sistema não está no modo de interrupção.”_
 
-	As especificações desse sistema 
+	As especificações desse sistema não são consistentes. Pois ao montar uma tabela da verdade com as variáveis:
+	
+	p: O sistema esta no estado multiusuário.
+	q: O sistema está operando normalmente.
+	r: O kernel esta funcionando.
+	s: O sistema esta no modo de Interrupção
+
+
+1. O sistema está no estado multiusuário se, e somente se, estiver operando normalmente. 
+	p ↔ q
+2. Se o sistema estiver operando normalmente, o kernel está funcionando.
+	q→ r
+3.  kernel não está funcionando ou o sistema está no modo de interrupção.
+	¬r ∨ s
+4. Se o sistema não estiver no estado multiusuário, então está no modo de interrupção.
+	¬p → s
+5. O sistema não está no modo de interrupção.
+	¬s
+
+
+| p   | q   | r   | s   | ¬r  | ¬s  | p ↔ q | q→ r | ¬r ∨ s | ¬p → s | (p ↔ q) ∧ (q → r) ∧ (¬r ∨ s) ∧ (¬p → s) ∧ (¬s) |
+| --- | --- | --- | --- | --- | --- | ----- | ---- | ------ | ------ | ---------------------------------------------- |
+| v   | v   | v   | v   | f   | f   | v     | v    | v      | v      | f                                              |
+| v   | v   | v   | f   | f   | v   | v     | v    | f      | v      | f                                              |
+| v   | v   | f   | v   | v   | f   | v     | f    | v      | v      | f                                              |
+| v   | v   | f   | f   | v   | v   | v     | f    | v      | v      | f                                              |
+| v   | f   | v   | v   | f   | f   | f     | v    | v      | v      | f                                              |
+| v   | f   | v   | f   | f   | v   | f     | v    | f      | v      | f                                              |
+| v   | f   | f   | v   | v   | f   | f     | v    | v      | v      | f                                              |
+| v   | f   | f   | f   | v   | v   | f     | v    | v      | v      | f                                              |
+| f   | v   | v   | v   | f   | f   | f     | v    | v      | v      | f                                              |
+| f   | v   | v   | f   | f   | v   | f     | v    | f      | f      | f                                              |
+| f   | v   | f   | v   | v   | f   | f     | f    | v      | v      | f                                              |
+| f   | v   | f   | f   | v   | v   | f     | f    | v      | f      | f                                              |
+| f   | f   | v   | v   | f   | f   | v     | v    | v      | v      | f                                              |
+| f   | f   | v   | f   | f   | v   | v     | v    | f      | f      | f                                              |
+| f   | f   | f   | v   | v   | f   | v     | v    | v      | v      | f                                              |
+| f   | f   | f   | f   | v   | v   | v     | v    | v      | f      | f                                              |
