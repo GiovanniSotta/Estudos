@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Faculdade/P1/Lógica/Aula 3.md",
+                "file": "Faculdade/P1/Lógica/B1/Listas de Exercícios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Aula 3"
+              "title": "Links inversos para Listas de Exercícios"
             }
           },
           {
@@ -161,12 +161,12 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,6 +181,17 @@
   },
   "active": "e2ed4e7d3dd60ea4",
   "lastOpenFiles": [
+    "Faculdade/P1/Fundamentos de Programação/Aulas/Consoleteste/Consoleteste/obj/Debug/net8.0/refint/Consoleteste.dll",
+    "Faculdade/P1/Fundamentos de Programação/Aulas/Consoleteste/Consoleteste/obj/Debug/net8.0/ref/Consoleteste.dll",
+    "Faculdade/P1/Fundamentos de Programação/Aulas/Consoleteste/Consoleteste/obj/Debug/net8.0/refint",
+    "Faculdade/P1/Fundamentos de Programação/Aulas/Consoleteste/Consoleteste/obj/Debug/net8.0/ref",
+    "Faculdade/P1/Fundamentos de Programação/Aulas/Consoleteste/Consoleteste/obj/Debug/net8.0/Consoleteste.pdb",
+    "Faculdade/P1/Fundamentos de Programação/Aulas/Consoleteste/Consoleteste/obj/Debug/net8.0/Consoleteste.GlobalUsings.g.cs",
+    "Faculdade/P1/Fundamentos de Programação/Aulas/Consoleteste/Consoleteste/obj/Debug/net8.0/Consoleteste.genruntimeconfig.cache",
+    "Faculdade/P1/Fundamentos de Programação/Aulas/Consoleteste/Consoleteste/obj/Debug/net8.0/Consoleteste.GeneratedMSBuildEditorConfig.editorconfig",
+    "Faculdade/P1/Fundamentos de Programação/Aulas/Consoleteste/Consoleteste/obj/Debug/net8.0/Consoleteste.csproj.FileListAbsolute.txt",
+    "Faculdade/P1/Fundamentos de Programação/Aulas/Consoleteste/Consoleteste/obj/Debug/net8.0/Consoleteste.dll",
+    "Faculdade/P1/Fundamentos de Programação/Aulas/Consoleteste/Consoleteste/obj/Debug/net8.0/Consoleteste.csproj.CoreCompileInputs.cache",
     "Faculdade/P1/Lógica/Aula 3.md",
     "Faculdade/P1/Lógica/Aula 3.md",
     "Faculdade/P1/Lógica/B1/Listas de Exercícios.md",
@@ -188,18 +199,9 @@
     "Faculdade/P1/Fundamentos de Programação/Aulas/Conceitos de programação - Tipos de Dados e variáveis.md",
     "Faculdade/P1/Fundamentos de Programação/Aulas/Introdução Programação CSharp.md",
     "Faculdade/P1/lujk.md",
-    "lkjlkj",
-    "teste",
     "Faculdade/P1/Lógica/B1/Exercícios iniciados em Sala.md",
-    "PNGs",
     "Bem-vindo.md",
     "PNGs/Pasted image 20250406182821.png",
-    "PNGs/Pasted image 20250406182852.png",
-    "Faculdade/P1/Lógica/B1",
-    "Faculdade/P1/Lógica",
-    "Faculdade/P1/Fundamentos de Programação/Aulas",
-    "Faculdade/P1/Fundamentos de Programação",
-    "Faculdade/P1",
-    "Faculdade"
+    "PNGs/Pasted image 20250406182852.png"
   ]
 }
