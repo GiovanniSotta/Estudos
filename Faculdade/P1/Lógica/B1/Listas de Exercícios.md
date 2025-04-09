@@ -27,12 +27,7 @@
     (g) p ↔ ¬q
     R: É permitido nadar na praia de Copacabana se, e somente se, não forem descobertos tubarões perto da praia
     (h) ¬p ∧ (p ∨ ¬q)
-    R: 
-	    ¬p é verdadeiro
-		p é falso
-		¬q é verdadeiro
-		p V ¬q -> verdadeiro
-		Não é permitido nadar na praia de Copacabana e é permitido nadar na praia de Copacabana ou não foram descobertos tubarões perto da praia.
+    R: Não é permitido nadar na praia de Copacabana e (é permitido nadar na praia de Copacabana ou não foram descobertos tubarões perto da praia).
 3. (Rosen 1.1.7) Considere que _p_ e _q_ são as proposições:
     
     - _p: “Está abaixo de zero.”_
@@ -41,17 +36,17 @@
     Escreva estas proposições usando _p_, _q_ e conectivos lógicos.
     
     (a) Está abaixo de zero e nevando.
-    
+	    p ∧ q
     (b) Está abaixo de zero, mas não está nevando.
-    
+	    p ∧ ¬q
     (c) Não está abaixo de zero e não está nevando.
-    
+	    ¬p ∧ ¬q
     (d) Está nevando ou abaixo de zero (ou os dois).
-    
+	    (p ∨ q) ∨ (p ∧ q)
     (e) Se está abaixo de zero, está também nevando.
-    
+	    p → q
     (f) Está ou nevando ou abaixo de zero, mas não está nevando se estiver abaixo de zero.
-    
+	    p ⊕ q| q → ¬p
     (g) Para que esteja nevando, é necessário e suficiente que esteja abaixo de zero.
     
 4. (Rosen 1.1.11) Sejam p, q e r as seguintes proposições:
