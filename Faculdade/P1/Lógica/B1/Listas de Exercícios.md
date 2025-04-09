@@ -91,12 +91,14 @@
     (a) Neva sempre que o vento sopra no Nordeste.
 	    Se o vento sopra no Nordeste então neva.
     (d) É necessário andar 8 quilômetros para chegar ao topo do monte Roraima.
-    
+	    Se chegou ao topo do monte Roraima, então andou 8 quilômetros.
     (e) Para conseguir ser efetivado como professor, é suficiente ser famoso na universidade.
-    
+	    Se é famoso na universidade, então será efetivado como professor.
     (g) Sua garantia é válida apenas se você comprou seu aparelho de som em menos de 90 dias.
-    
+	    Se você comprou seu aparelho de som em menos de 90 dias, então sua garantia é válida.
     (h) Yogananda nadará a menos que a água esteja muito fria.
+	    Se a água não estiver muito fria, então yogananda nadará
+
     
 8. (Rosen 1.1.23) Determine a oposta/conversa, a contrapositiva e a inversa de cada uma das proposições condicionais.
     
@@ -107,7 +109,8 @@
 9. (Rosen 1.1.27) Construa a tabela da verdade para cada uma das proposições compostas abaixo.
     
     (a) (Rosen 1.1.27, item (c)) (p ∨ ¬q) → q)
-    
+	    Conversa: q → (p ∨ ¬q); 
+	    Contra positiva: ¬q →  ¬(p ∨ ¬q) = ¬q → (¬p ∧ q)
     (b) (Rosen 1.1.27, item (e)) (p → q) ↔ (¬q → ¬p)
     
     (c) (Rosen 1.1.29, item (b)) (p ⊕ q) → (p ∧ q)
