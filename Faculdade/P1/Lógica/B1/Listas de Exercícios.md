@@ -171,4 +171,6 @@
 12. (Rosen, 8th Edition, 1.2.9) Determine se as seguintes especificações de um sistema são consistentes.
     
 
-_“O sistema está no estado multiusuário se, e somente se, estiver operando normalmente. Se o sistema estiver operando normalmente, o kernel está funcionando. O kernel não está funcionando ou o sistema está no modo de interrupção. Se o sistema não estiver no estado multiusuário, então está no modo de interrupção. O sistema não está no modo de interrupção.”_
+	_“O sistema está no estado multiusuário se, e somente se, estiver operando normalmente. Se o sistema estiver operando normalmente, o kernel está funcionando. O kernel não está funcionando ou o sistema está no modo de interrupção. Se o sistema não estiver no estado multiusuário, então está no modo de interrupção. O sistema não está no modo de interrupção.”_
+
+	As especificações desse sistema 
