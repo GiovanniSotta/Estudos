@@ -174,7 +174,7 @@
 | **0** | **0** | **0** | **0**  |      **0**       |
 | **0** | **1** | **1** | **1**  |      **0**       |
 | **0** | **1** | **1** | **1**  |      **0**       |
-		Logo: 
+		Logo o valor final em (a) é: 11000
 	   (c) (01010 ⊕ 11011) ⊕ 01000
     
 11. (Rosen, 8th Edition, 1.2.9) Determine se as seguintes especificações de um sistema são consistentes.
