@@ -73,13 +73,13 @@
 5. (Rosen 1.1.13) Determine se cada uma destas proposições condicionais é verdadeira ou falsa.
     
     (a) Se 1 + 1 = 2, então 2 + 2 = 5.
-    
+	    Falsa.
     (b) Se 1 + 1 = 3, então 2 + 2 = 4.
-    
+	    Verdadeira.
     (c) Se 1 + 1 = 3, então 2 + 2 = 5.
-    
+	    Verdadeira.
     (d) Se macacos puderem voar, então 1 + 1 = 3.
-    
+	    Verdadeira
 6. (Rosen 1.1.17) Reescreva cada sentença em português explicitando o que ela significa caso o “ou” utilizado seja inclusivo (ou seja, uma disjunção) e o que ela significa caso o “ou” utilizado seja exclusivo. Quais dos significados do “ou” você acha que o autor queria usar?
     
     (a) Para cursar matemática discreta, você deve ter tido cálculo ou um curso de ciência da computação.
