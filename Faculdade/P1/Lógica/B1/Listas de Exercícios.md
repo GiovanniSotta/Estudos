@@ -173,14 +173,15 @@
 
 	_“O sistema está no estado multiusuário se, e somente se, estiver operando normalmente. Se o sistema estiver operando normalmente, o kernel está funcionando. O kernel não está funcionando ou o sistema está no modo de interrupção. Se o sistema não estiver no estado multiusuário, então está no modo de interrupção. O sistema não está no modo de interrupção.”_
 
-	As especificações desse sistema não são consistentes. Pois ao montar uma tabela da verdade com as variáveis:
+	As especificações desse sistema **não** são consistentes. Pois, seja a seguinte atribuição de variáveis proposicionais:
 	
 	p: O sistema esta no estado multiusuário.
 	q: O sistema está operando normalmente.
 	r: O kernel esta funcionando.
 	s: O sistema esta no modo de Interrupção
 
-
+	E as proposições compostas:
+	
 1. O sistema está no estado multiusuário se, e somente se, estiver operando normalmente. 
 	p ↔ q
 2. Se o sistema estiver operando normalmente, o kernel está funcionando.
@@ -192,6 +193,7 @@
 5. O sistema não está no modo de interrupção.
 	¬s
 
+	A conjunção das proposições é insatisfazível, ou seja, não existe interpretação que a torne verdadeira.
 
 | p   | q   | r   | s   | ¬r  | ¬s  | p ↔ q | q→ r | ¬r ∨ s | ¬p → s | (p ↔ q) ∧ (q → r) ∧ (¬r ∨ s) ∧ (¬p → s) ∧ (¬s) |
 | --- | --- | --- | --- | --- | --- | ----- | ---- | ------ | ------ | ---------------------------------------------- |
