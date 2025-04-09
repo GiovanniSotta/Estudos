@@ -182,18 +182,18 @@
 
 	E as proposições compostas:
 	
-1. O sistema está no estado multiusuário se, e somente se, estiver operando normalmente. 
-	p ↔ q
-2. Se o sistema estiver operando normalmente, o kernel está funcionando.
-	q→ r
-3.  kernel não está funcionando ou o sistema está no modo de interrupção.
-	¬r ∨ s
-4. Se o sistema não estiver no estado multiusuário, então está no modo de interrupção.
-	¬p → s
-5. O sistema não está no modo de interrupção.
-	¬s
-
-	A conjunção das proposições é insatisfazível, ou seja, não existe interpretação que a torne verdadeira.
+	1. O sistema está no estado multiusuário se, e somente se, estiver operando normalmente. 
+		p ↔ q
+	2. Se o sistema estiver operando normalmente, o kernel está funcionando.
+		q→ r
+	3.  kernel não está funcionando ou o sistema está no modo de interrupção.
+		¬r ∨ s
+	4. Se o sistema não estiver no estado multiusuário, então está no modo de interrupção.
+		¬p → s
+	5. O sistema não está no modo de interrupção.
+		¬s
+	
+		A conjunção das proposições é insatisfazível, ou seja, não existe interpretação que a torne verdadeira.
 
 | p   | q   | r   | s   | ¬r  | ¬s  | p ↔ q | q→ r | ¬r ∨ s | ¬p → s | (p ↔ q) ∧ (q → r) ∧ (¬r ∨ s) ∧ (¬p → s) ∧ (¬s) |
 | --- | --- | --- | --- | --- | --- | ----- | ---- | ------ | ------ | ---------------------------------------------- |
