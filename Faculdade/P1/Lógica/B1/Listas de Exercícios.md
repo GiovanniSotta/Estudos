@@ -166,7 +166,7 @@
 		A resposta é 11000
 
 	(c) (01010 ⊕ 11011) ⊕ 01000
-		A resposta é 11011
+		A resposta é 11001
     
 12. (Rosen, 8th Edition, 1.2.9) Determine se as seguintes especificações de um sistema são consistentes.
     
