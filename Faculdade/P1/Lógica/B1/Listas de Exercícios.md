@@ -103,14 +103,17 @@
 8. (Rosen 1.1.23) Determine a oposta/conversa, a contrapositiva e a inversa de cada uma das proposições condicionais.
     
     (a) Se nevar hoje, então esquiarei amanhã.
-    
+	    Conversa: Se esquiarei amanhã então vai nevar hoje;
+	    Cotrapositiva: Se não esquiarei amanhã então não vai nevar hoje/
+	    Inversa: Se não nevar hoje, então não esquiarei amanhã.
     (b) Se há uma prova, então eu venho à aula.
-    
+	    Conversa: se eu for à aula, então há uma prova;
+	    Cotrapositiva: se eu não for à aula, então não há uma prova;
+	    Inversa: Se não há uma prova, então eu não vou à aula.
 9. (Rosen 1.1.27) Construa a tabela da verdade para cada uma das proposições compostas abaixo.
     
     (a) (Rosen 1.1.27, item (c)) (p ∨ ¬q) → q)
-	    Conversa: q → (p ∨ ¬q); 
-	    Contra positiva: ¬q →  ¬(p ∨ ¬q) = ¬q → (¬p ∧ q)
+	    
     (b) (Rosen 1.1.27, item (e)) (p → q) ↔ (¬q → ¬p)
     
     (c) (Rosen 1.1.29, item (b)) (p ⊕ q) → (p ∧ q)
