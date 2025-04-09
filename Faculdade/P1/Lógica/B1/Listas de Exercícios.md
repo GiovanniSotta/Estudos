@@ -181,7 +181,7 @@ s: O sistema esta no modo de Interrupção
 1. O sistema está no estado multiusuário se, e somente se, estiver operando normalmente. 
 	p ↔ q
 2. Se o sistema estiver operando normalmente, o kernel está funcionando.
-	p → r
+	q→ r
 3.  kernel não está funcionando ou o sistema está no modo de interrupção.
 	¬r ∨ s
 4. Se o sistema não estiver no estado multiusuário, então está no modo de interrupção.
@@ -190,11 +190,11 @@ s: O sistema esta no modo de Interrupção
 	¬s
 
 
-| s   | ¬s  | p   |     |     |
-| --- | --- | --- | --- | --- |
-| f   | v   | v   |     |     |
-|     |     |     |     |     |
-|     |     |     |     |     |
-|     |     |     |     |     |
+| s   | ¬s  | r   | ¬r  | q   | p   |     |
+| --- | --- | --- | --- | --- | --- | --- |
+| f   | v   | f   | v   | f   | f   |     |
+|     |     |     |     |     |     |     |
+|     |     |     |     |     |     |     |
+|     |     |     |     |     |     |     |
 
 
