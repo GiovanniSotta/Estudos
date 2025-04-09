@@ -65,7 +65,7 @@
     (c) Se as bagas estão maduras ao longo da trilha, fazer caminhada é seguro se, e somente se, ursos-cinzentos não forem vistos na área.
 	    r → (q ↔ ¬p)
     (d) Não é seguro fazer caminhada na trilha, mas os ursos-cinzentos não são vistos na área e as bagas ao longo da trilha estão maduras.
-    
+		¬q ∧ ¬p ∧ r
     (e) Para a caminhada ser segura, é necessário, mas não suficiente, que as bagas não estejam maduras ao longo da trilha e que os ursos-cinzentos não sejam vistos na área.
     
     (f) Caminhada não é segura ao longo da trilha sempre que os ursos-cinzentos são vistos na área e as bagas estão maduras ao longo da trilha.
