@@ -1,0 +1,1280 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Listas de Exercícios</title>
+        <meta charset='utf-8'/>
+        <style>
+ .ͼ1.cm-focused {outline: 1px dotted #212121;}
+.ͼ1 {position: relative !important; box-sizing: border-box; display: flex !important; flex-direction: column;}
+.ͼ1 .cm-scroller {display: flex !important; align-items: flex-start !important; font-family: monospace; line-height: 1.4; height: 100%; overflow-x: auto; position: relative; z-index: 0; overflow-anchor: none;}
+.ͼ1 .cm-content[contenteditable=true] {-webkit-user-modify: read-write-plaintext-only;}
+.ͼ1 .cm-content {margin: 0; flex-grow: 2; flex-shrink: 0; display: block; white-space: pre; word-wrap: normal; box-sizing: border-box; min-height: 100%; padding: 4px 0; outline: none;}
+.ͼ1 .cm-lineWrapping {white-space: pre-wrap; white-space: break-spaces; word-break: break-word; overflow-wrap: anywhere; flex-shrink: 1;}
+.ͼ2 .cm-content {caret-color: black;}
+.ͼ3 .cm-content {caret-color: white;}
+.ͼ1 .cm-line {display: block; padding: 0 2px 0 6px;}
+.ͼ1 .cm-layer > * {position: absolute;}
+.ͼ1 .cm-layer {position: absolute; left: 0; top: 0; contain: size style;}
+.ͼ2 .cm-selectionBackground {background: #d9d9d9;}
+.ͼ3 .cm-selectionBackground {background: #222;}
+.ͼ2.cm-focused > .cm-scroller > .cm-selectionLayer .cm-selectionBackground {background: #d7d4f0;}
+.ͼ3.cm-focused > .cm-scroller > .cm-selectionLayer .cm-selectionBackground {background: #233;}
+.ͼ1 .cm-cursorLayer {pointer-events: none;}
+.ͼ1.cm-focused > .cm-scroller > .cm-cursorLayer {animation: steps(1) cm-blink 1.2s infinite;}
+@keyframes cm-blink {50% {opacity: 0;}}
+@keyframes cm-blink2 {50% {opacity: 0;}}
+.ͼ1 .cm-cursor, .ͼ1 .cm-dropCursor {border-left: 1.2px solid black; margin-left: -0.6px; pointer-events: none;}
+.ͼ1 .cm-cursor {display: none;}
+.ͼ3 .cm-cursor {border-left-color: #ddd;}
+.ͼ1 .cm-dropCursor {position: absolute;}
+.ͼ1.cm-focused > .cm-scroller > .cm-cursorLayer .cm-cursor {display: block;}
+.ͼ1 .cm-iso {unicode-bidi: isolate;}
+.ͼ1 .cm-announced {position: fixed; top: -10000px;}
+@media print {.ͼ1 .cm-announced {display: none;}}
+.ͼ2 .cm-activeLine {background-color: #cceeff44;}
+.ͼ3 .cm-activeLine {background-color: #99eeff33;}
+.ͼ2 .cm-specialChar {color: red;}
+.ͼ3 .cm-specialChar {color: #f78;}
+.ͼ1 .cm-gutters {flex-shrink: 0; display: flex; height: 100%; box-sizing: border-box; inset-inline-start: 0; z-index: 200;}
+.ͼ2 .cm-gutters {background-color: #f5f5f5; color: #6c6c6c; border-right: 1px solid #ddd;}
+.ͼ3 .cm-gutters {background-color: #333338; color: #ccc;}
+.ͼ1 .cm-gutter {display: flex !important; flex-direction: column; flex-shrink: 0; box-sizing: border-box; min-height: 100%; overflow: hidden;}
+.ͼ1 .cm-gutterElement {box-sizing: border-box;}
+.ͼ1 .cm-lineNumbers .cm-gutterElement {padding: 0 3px 0 5px; min-width: 20px; text-align: right; white-space: nowrap;}
+.ͼ2 .cm-activeLineGutter {background-color: #e2f2ff;}
+.ͼ3 .cm-activeLineGutter {background-color: #222227;}
+.ͼ1 .cm-panels {box-sizing: border-box; position: sticky; left: 0; right: 0; z-index: 300;}
+.ͼ2 .cm-panels {background-color: #f5f5f5; color: black;}
+.ͼ2 .cm-panels-top {border-bottom: 1px solid #ddd;}
+.ͼ2 .cm-panels-bottom {border-top: 1px solid #ddd;}
+.ͼ3 .cm-panels {background-color: #333338; color: white;}
+.ͼ1 .cm-tab {display: inline-block; overflow: hidden; vertical-align: bottom;}
+.ͼ1 .cm-widgetBuffer {vertical-align: text-top; height: 1em; width: 0; display: inline;}
+.ͼ1 .cm-placeholder {color: #888; display: inline-block; vertical-align: top;}
+.ͼ1 .cm-highlightSpace {background-image: radial-gradient(circle at 50% 55%, #aaa 20%, transparent 5%); background-position: center;}
+.ͼ1 .cm-highlightTab {background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="20"><path stroke="%23888" stroke-width="1" fill="none" d="M1 10H196L190 5M190 15L196 10M197 4L197 16"/></svg>'); background-size: auto 100%; background-position: right 90%; background-repeat: no-repeat;}
+.ͼ1 .cm-trailingSpace {background-color: #ff332255;}
+.ͼ1 .cm-button {vertical-align: middle; color: inherit; font-size: 70%; padding: .2em 1em; border-radius: 1px;}
+.ͼ2 .cm-button:active {background-image: linear-gradient(#b4b4b4, #d0d3d6);}
+.ͼ2 .cm-button {background-image: linear-gradient(#eff1f5, #d9d9df); border: 1px solid #888;}
+.ͼ3 .cm-button:active {background-image: linear-gradient(#111, #333);}
+.ͼ3 .cm-button {background-image: linear-gradient(#393939, #111); border: 1px solid #888;}
+.ͼ1 .cm-textfield {vertical-align: middle; color: inherit; font-size: 70%; border: 1px solid silver; padding: .2em .5em;}
+.ͼ2 .cm-textfield {background-color: white;}
+.ͼ3 .cm-textfield {border: 1px solid #555; background-color: inherit;}
+.ͼ1 .cm-foldPlaceholder {background-color: #eee; border: 1px solid #ddd; color: #888; border-radius: .2em; margin: 0 1px; padding: 0 1px; cursor: pointer;}
+.ͼ1 .cm-foldGutter span {padding: 0 1px; cursor: pointer;}
+ @keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.workspace-leaf-content[data-type="git-view"] .button-border {
+    border: 2px solid var(--interactive-accent);
+    border-radius: var(--radius-s);
+}
+
+.workspace-leaf-content[data-type="git-view"] .view-content {
+    padding: 0;
+}
+
+.workspace-leaf-content[data-type="git-history-view"] .view-content {
+    padding: 0;
+}
+
+.loading > svg {
+    animation: 2s linear infinite loading;
+    transform-origin: 50% 50%;
+    display: inline-block;
+}
+
+.obsidian-git-center {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.obsidian-git-textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.obsidian-git-disabled {
+    opacity: 0.5;
+}
+
+.obsidian-git-center-button {
+    display: block;
+    margin: 20px auto;
+}
+
+.tooltip.mod-left {
+    overflow-wrap: break-word;
+}
+
+.tooltip.mod-right {
+    overflow-wrap: break-word;
+}
+.git-tools {
+    display: flex;
+    margin-left: auto;
+}
+.git-tools .type {
+    padding-left: var(--size-2-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 11px;
+}
+
+.git-tools .type[data-type="M"] {
+    color: orange;
+}
+.git-tools .type[data-type="D"] {
+    color: red;
+}
+.git-tools .buttons {
+    display: flex;
+}
+.git-tools .buttons > * {
+    padding: 0 0;
+    height: auto;
+}
+
+.is-active .git-tools .buttons > * {
+    color: var(--nav-item-color-active);
+}
+
+.git-author {
+    color: var(--text-accent);
+}
+
+.git-date {
+    color: var(--text-accent);
+}
+
+.git-ref {
+    color: var(--text-accent);
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-d-none {
+    display: none;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-wrapper {
+    text-align: left;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-header {
+    background-color: var(--background-primary);
+    border-bottom: 1px solid var(--interactive-accent);
+    font-family: var(--font-monospace);
+    height: 35px;
+    padding: 5px 10px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-header,
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-stats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-stats {
+    font-size: 14px;
+    margin-left: auto;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-lines-added {
+    border: 1px solid #b4e2b4;
+    border-radius: 5px 0 0 5px;
+    color: #399839;
+    padding: 2px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-lines-deleted {
+    border: 1px solid #e9aeae;
+    border-radius: 0 5px 5px 0;
+    color: #c33;
+    margin-left: 1px;
+    padding: 2px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-name-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 15px;
+    width: 100%;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-name {
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-wrapper {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 3px;
+    margin-bottom: 1em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-collapse {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 3px;
+    cursor: pointer;
+    display: none;
+    font-size: 12px;
+    justify-content: flex-end;
+    padding: 4px 8px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-collapse.d2h-selected {
+    background-color: #c8e1ff;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-collapse-input {
+    margin: 0 4px 0 0;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-diff-table {
+    border-collapse: collapse;
+    font-family: Menlo, Consolas, monospace;
+    font-size: 13px;
+    width: 100%;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-files-diff {
+    width: 100%;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-diff {
+    overflow-y: hidden;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-side-diff {
+    display: inline-block;
+    margin-bottom: -8px;
+    margin-right: -4px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 50%;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-line {
+    padding: 0 8em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-line,
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-line {
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-line {
+    padding: 0 4.5em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-line-ctn {
+    word-wrap: normal;
+    background: none;
+    display: inline-block;
+    padding: 0;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    vertical-align: middle;
+    white-space: pre;
+    width: 100%;
+}
+
+.theme-light .workspace-leaf-content[data-type="diff-view"] .d2h-code-line del,
+.theme-light
+    .workspace-leaf-content[data-type="diff-view"]
+    .d2h-code-side-line
+    del {
+    background-color: #ffb6ba;
+}
+
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .d2h-code-line del,
+.theme-dark
+    .workspace-leaf-content[data-type="diff-view"]
+    .d2h-code-side-line
+    del {
+    background-color: #8d232881;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-line del,
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-line ins,
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-line del,
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-line ins {
+    border-radius: 0.2em;
+    display: inline-block;
+    margin-top: -1px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.theme-light .workspace-leaf-content[data-type="diff-view"] .d2h-code-line ins,
+.theme-light
+    .workspace-leaf-content[data-type="diff-view"]
+    .d2h-code-side-line
+    ins {
+    background-color: #97f295;
+    text-align: left;
+}
+
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .d2h-code-line ins,
+.theme-dark
+    .workspace-leaf-content[data-type="diff-view"]
+    .d2h-code-side-line
+    ins {
+    background-color: #1d921996;
+    text-align: left;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-line-prefix {
+    word-wrap: normal;
+    background: none;
+    display: inline;
+    padding: 0;
+    white-space: pre;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .line-num1 {
+    float: left;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .line-num1,
+.workspace-leaf-content[data-type="diff-view"] .line-num2 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 0.5em;
+    text-overflow: ellipsis;
+    width: 3.5em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .line-num2 {
+    float: right;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-linenumber {
+    background-color: var(--background-primary);
+    border: solid var(--background-modifier-border);
+    border-width: 0 1px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: var(--text-muted);
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    text-align: right;
+    width: 7.5em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-linenumber:after {
+    content: "\200b";
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-linenumber {
+    background-color: var(--background-primary);
+    border: solid var(--background-modifier-border);
+    border-width: 0 1px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: var(--text-muted);
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 0.5em;
+    position: absolute;
+    text-align: right;
+    text-overflow: ellipsis;
+    width: 4em;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-diff-tbody tr {
+    position: relative;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-linenumber:after {
+    content: "\200b";
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-emptyplaceholder,
+.workspace-leaf-content[data-type="diff-view"] .d2h-emptyplaceholder {
+    background-color: var(--background-primary);
+    border-color: var(--background-modifier-border);
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-line-prefix,
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-linenumber,
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-linenumber,
+.workspace-leaf-content[data-type="diff-view"] .d2h-emptyplaceholder {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-linenumber,
+.workspace-leaf-content[data-type="diff-view"] .d2h-code-side-linenumber {
+    direction: rtl;
+}
+
+.theme-light .workspace-leaf-content[data-type="diff-view"] .d2h-del {
+    background-color: #fee8e9;
+    border-color: #e9aeae;
+}
+
+.theme-light .workspace-leaf-content[data-type="diff-view"] .d2h-ins {
+    background-color: #dfd;
+    border-color: #b4e2b4;
+}
+
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .d2h-del {
+    background-color: #521b1d83;
+    border-color: #691d1d73;
+}
+
+.theme-dark .workspace-leaf-content[data-type="diff-view"] .d2h-ins {
+    background-color: rgba(30, 71, 30, 0.5);
+    border-color: #13501381;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-info {
+    background-color: var(--background-primary);
+    border-color: var(--background-modifier-border);
+    color: var(--text-normal);
+}
+
+.theme-light
+    .workspace-leaf-content[data-type="diff-view"]
+    .d2h-file-diff
+    .d2h-del.d2h-change {
+    background-color: #fdf2d0;
+}
+
+.theme-dark
+    .workspace-leaf-content[data-type="diff-view"]
+    .d2h-file-diff
+    .d2h-del.d2h-change {
+    background-color: #55492480;
+}
+
+.theme-light
+    .workspace-leaf-content[data-type="diff-view"]
+    .d2h-file-diff
+    .d2h-ins.d2h-change {
+    background-color: #ded;
+}
+
+.theme-dark
+    .workspace-leaf-content[data-type="diff-view"]
+    .d2h-file-diff
+    .d2h-ins.d2h-change {
+    background-color: rgba(37, 78, 37, 0.418);
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-list-wrapper {
+    margin-bottom: 10px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-list-wrapper a {
+    color: #3572b0;
+    text-decoration: none;
+}
+
+.workspace-leaf-content[data-type="diff-view"]
+    .d2h-file-list-wrapper
+    a:visited {
+    color: #3572b0;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-list-header {
+    text-align: left;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-list-title {
+    font-weight: 700;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-list-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-list {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-list > li {
+    border-bottom: 1px solid var(--background-modifier-border);
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-list > li:last-child {
+    border-bottom: none;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-file-switch {
+    cursor: pointer;
+    display: none;
+    font-size: 10px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-icon {
+    fill: currentColor;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-deleted {
+    color: #c33;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-added {
+    color: #399839;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-changed {
+    color: #d0b44c;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-moved {
+    color: #3572b0;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-tag {
+    background-color: var(--background-primary);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 10px;
+    margin-left: 5px;
+    padding: 0 2px;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-deleted-tag {
+    border: 2px solid #c33;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-added-tag {
+    border: 1px solid #399839;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-changed-tag {
+    border: 1px solid #d0b44c;
+}
+
+.workspace-leaf-content[data-type="diff-view"] .d2h-moved-tag {
+    border: 1px solid #3572b0;
+}
+
+/* ====================== Line Authoring Information ====================== */
+
+.cm-gutterElement.obs-git-blame-gutter {
+    /* Add background color to spacing inbetween and around the gutter for better aesthetics */
+    border-width: 0px 2px 0.2px 2px;
+    border-style: solid;
+    border-color: var(--background-secondary);
+    background-color: var(--background-secondary);
+}
+
+.cm-gutterElement.obs-git-blame-gutter > div,
+.line-author-settings-preview {
+    /* delegate text color to settings */
+    color: var(--obs-git-gutter-text);
+    font-family: monospace;
+    height: 100%; /* ensure, that age-based background color occupies entire parent */
+    text-align: right;
+    padding: 0px 6px 0px 6px;
+    white-space: pre; /* Keep spaces and do not collapse them. */
+}
+
+@media (max-width: 800px) {
+    /* hide git blame gutter not to superpose text */
+    .cm-gutterElement.obs-git-blame-gutter {
+        display: none;
+    }
+}
+
+.git-unified-diff-view,
+.git-split-diff-view .cm-deletedLine .cm-changedText {
+    background-color: #ee443330;
+}
+
+.git-unified-diff-view,
+.git-split-diff-view .cm-insertedLine .cm-changedText {
+    background-color: #22bb2230;
+}
+ :root {
+  --advanced-tables-helper-size: 28px;
+}
+
+.HyperMD-table-row span.cm-inline-code {
+  font-size: 100%;
+  padding: 0px;
+}
+
+.advanced-tables-buttons>div>.title {
+  font-weight: var(--font-medium);
+  font-size: var(--nav-item-size);
+  color: var(--nav-item-color);
+  text-decoration: underline;
+}
+
+[data-type="advanced-tables-toolbar"] .nav-buttons-container {
+  column-gap: 0.2rem;
+  margin: 0.2rem 0 0.2rem 0;
+  justify-content: start;
+}
+
+[data-type="advanced-tables-toolbar"] .nav-buttons-container::before {
+  min-width: 2.6rem;
+  line-height: var(--advanced-tables-helper-size);
+  font-size: var(--nav-item-size);
+  font-weight: var(--nav-item-weight);
+  color: var(--nav-item-color);
+}
+
+[data-type="advanced-tables-toolbar"] .nav-buttons-container>* {
+  height: var(--advanced-tables-helper-size);
+  line-height: var(--advanced-tables-helper-size);
+}
+
+[data-type="advanced-tables-toolbar"] .nav-buttons-container .nav-action-button {
+  width: var(--advanced-tables-helper-size);
+  height: var(--advanced-tables-helper-size);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--radius-s);
+}
+
+[data-type="advanced-tables-toolbar"] .nav-buttons-container .nav-action-button:hover {
+  background-color: var(--nav-item-background-hover);
+  color: var(--nav-item-color-hover);
+  font-weight: var(--nav-item-weight-hover);
+}
+
+.advanced-tables-row-label {
+  width: 50px;
+}
+
+.widget-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--text-muted);
+}
+
+.widget-icon:hover {
+  fill: var(--text-normal);
+}
+
+.advanced-tables-csv-export textarea {
+  height: 200px;
+  width: 100%;
+}
+
+.advanced-tables-donation {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.advanced-tables-donate-button {
+  margin: 10px;
+} 
+.pandoc-plugin-error {
+    color: red;
+}
+ undefined
+</style>
+    </head>
+    <body>
+<ol>
+<li dir="auto">
+<p>(Rosen 1.1.1) Quais das sentenças abaixo são proposições? Qual o valor de verdade das que são proposições?</p>
+<p>(a) Curitiba é a capital do Paraná.</p>
+<p>(b) Joinville é a capital de Santa Catarina.</p>
+<p>(c) 2 + 3 = 5</p>
+<p>(d) 5 + 7 = 10</p>
+<p>(e) x + 2 = 11</p>
+<p>(f) Responda a esta questão.</p>
+<p>R: (a), (b), (c) e (d) são proposições. Seus valores de verdade são: V, F, V e F, respectivamente.</p>
+</li>
+<li dir="auto">
+<p>(Rosen 1.1.5) Considere que&nbsp;<em>p</em>&nbsp;e&nbsp;<em>q</em>&nbsp;são as proposições:&nbsp;<em>“Nadar na praia em Copacabana é permitido”</em>&nbsp;e&nbsp;<em>“Foram descobertos tubarões perto da praia”</em>, respectivamente. Expresse cada uma dessas proposições compostas como uma sentença em português.</p>
+<p>(a) ¬q<br>
+R: Não foram descobertos tubarões perto da praia.</p>
+<p>(b) p ∧ q<br>
+R: Nadar na praia em Copacabana é permitido e foram descobertos tubarões perto da praia.</p>
+<p>(c) ¬p ∨ q<br>
+R: Não é permitido nadar na praia de Copacabana ou foram descobertos tubarões perto da praia</p>
+<p>(d) p → ¬q<br>
+R: Se nadar na praia de Copacabana é permitido, então não foram descobertos tubarões perto da praia</p>
+<p>(g) p ↔ ¬q<br>
+R: É permitido nadar na praia de Copacabana se, e somente se, não forem descobertos tubarões perto da praia</p>
+<p>(h) ¬p ∧ (p ∨ ¬q)<br>
+R: Não é permitido nadar na praia de Copacabana e (é permitido nadar na praia de Copacabana ou não foram descobertos tubarões perto da praia).</p>
+</li>
+<li dir="auto">
+<p>(Rosen 1.1.7) Considere que&nbsp;<em>p</em>&nbsp;e&nbsp;<em>q</em>&nbsp;são as proposições:</p>
+<ul>
+<li dir="auto"><em>p: “Está abaixo de zero.”</em></li>
+<li dir="auto"><em>q: “Está nevando.”</em></li>
+</ul>
+<p>Escreva estas proposições usando&nbsp;<em>p</em>,&nbsp;<em>q</em>&nbsp;e conectivos lógicos.</p>
+<p>(a) Está abaixo de zero e nevando.<br>
+p ∧ q<br>
+(b) Está abaixo de zero, mas não está nevando.<br>
+p ∧ ¬q<br>
+(c) Não está abaixo de zero e não está nevando.<br>
+¬p ∧ ¬q<br>
+(d) Está nevando ou abaixo de zero (ou os dois).<br>
+(p ∨ q) ∨ (p ∧ q)<br>
+(e) Se está abaixo de zero, está também nevando.<br>
+p → q<br>
+(f) Está ou nevando ou abaixo de zero, mas não está nevando se estiver abaixo de zero.<br>
+p ⊕ q<br>
+(g) Para que esteja nevando, é necessário e suficiente que esteja abaixo de zero.<br>
+p ↔ q</p>
+</li>
+<li dir="auto">
+<p>(Rosen 1.1.11) Sejam p, q e r as seguintes proposições:</p>
+<ul>
+<li dir="auto"><em>p: “Ursos-cinzentos são vistos na área.”</em></li>
+<li dir="auto"><em>q: “Fazer caminhada na trilha é seguro.”</em></li>
+<li dir="auto"><em>r: “As bagas estão maduras ao longo da trilha.”</em></li>
+</ul>
+<p>Escreva as seguintes proposições utilizando&nbsp;<em>p</em>,&nbsp;<em>q</em>,&nbsp;<em>r</em>&nbsp;e conectivos lógicos.</p>
+<p>(a) As bagas estão maduras ao longo da trilha, mas os ursos-cinzentos não são vistos na área.<br>
+r ∧ ¬p</p>
+<p>(b) Ursos-cinzentos não são vistos na área e fazer caminhada na trilha é seguro, mas as bagas estão maduras ao longo da trilha.<br>
+¬p ∧ q ∧ r</p>
+<p>(c) Se as bagas estão maduras ao longo da trilha, fazer caminhada é seguro se, e somente se, ursos-cinzentos não forem vistos na área.<br>
+r → (q ↔ ¬p)</p>
+<p>(d) Não é seguro fazer caminhada na trilha, mas os ursos-cinzentos não são vistos na área e as bagas ao longo da trilha estão maduras.<br>
+¬q ∧ ¬p ∧ r<br>
+<br>
+(e) Para a caminhada ser segura, é necessário, mas não suficiente, que as bagas não estejam maduras ao longo da trilha e que os ursos-cinzentos não sejam vistos na área.<br>
+q → (¬r ∧ ¬p)</p>
+<p>(f) Caminhada não é segura ao longo da trilha sempre que os ursos-cinzentos são vistos na área e as bagas estão maduras ao longo da trilha.<br>
+(p ∧ r) → ¬q<br>
+</p>
+</li>
+<li dir="auto">
+<p>(Rosen 1.1.13) Determine se cada uma destas proposições condicionais é verdadeira ou falsa.</p>
+<p>(a) Se 1 + 1 = 2, então 2 + 2 = 5.<br>
+Falsa.</p>
+<p>(b) Se 1 + 1 = 3, então 2 + 2 = 4.<br>
+Verdadeira.</p>
+<p>(c) Se 1 + 1 = 3, então 2 + 2 = 5.<br>
+Verdadeira.</p>
+<p>(d) Se macacos puderem voar, então 1 + 1 = 3.<br>
+Verdadeira.<br>
+</p>
+</li>
+<li dir="auto">
+<p>(Rosen 1.1.17) Reescreva cada sentença em português explicitando o que ela significa caso o “ou” utilizado seja inclusivo (ou seja, uma disjunção) e o que ela significa caso o “ou” utilizado seja exclusivo. Quais dos significados do “ou” você acha que o autor queria usar?</p>
+<p>(a) Para cursar matemática discreta, você deve ter tido cálculo ou um curso de ciência da computação.<br>
+Ou inclusivo. Pois, você pode cursar matemática discreta se tiver feito cálculo, ciência da computação ou ambos.</p>
+<p>(b) Quando você compra um novo carro da Companhia Acme Motor, você pega de volta $2.000 ou um empréstimo de 2%.<br>
+Ou exclusivo. Pois, ele ele te da uma escolha, ou vc pega os $2.000 de volta, ou um empréstimo de 2%, mas nunca os dois.<br>
+</p>
+</li>
+<li dir="auto">
+<p>(Rosen 1.1.19) Escreva cada uma das proposições abaixo na forma&nbsp;<em>“se p, então q”</em>&nbsp;em português.</p>
+<p>(a) Neva sempre que o vento sopra no Nordeste.<br>
+Se o vento sopra no Nordeste então neva.</p>
+<p>(d) É necessário andar 8 quilômetros para chegar ao topo do monte Roraima.<br>
+Se chegou ao topo do monte Roraima, então andou 8 quilômetros.</p>
+<p>(e) Para conseguir ser efetivado como professor, é suficiente ser famoso na universidade.<br>
+Se é famoso na universidade, então será efetivado como professor.</p>
+<p>(g) Sua garantia é válida apenas se você comprou seu aparelho de som em menos de 90 dias.<br>
+Se você comprou seu aparelho de som em menos de 90 dias, então sua garantia é válida.</p>
+<p>(h) Yogananda nadará a menos que a água esteja muito fria.<br>
+Se a água não estiver muito fria, então yogananda nadará</p>
+</li>
+<li dir="auto">
+<p>(Rosen 1.1.23) Determine a oposta/conversa, a contrapositiva e a inversa de cada uma das proposições condicionais.</p>
+<p>(a) Se nevar hoje, então esquiarei amanhã.<br>
+Conversa: Se esquiarei amanhã então vai nevará hoje;<br>
+Cotrapositiva: Se não esquiarei amanhã então não nevará hoje/<br>
+Inversa: Se não nevar hoje, então não esquiarei amanhã.</p>
+<p>(b) Se há uma prova, então eu venho à aula.<br>
+Conversa: se eu venho à aula, então há uma prova;<br>
+Cotrapositiva: se eu não for à aula, então não há uma prova;<br>
+Inversa: Se não há uma prova, então eu não vou à aula.<br>
+</p>
+</li>
+<li dir="auto">
+<p>(Rosen 1.1.27) Construa a tabela da verdade para cada uma das proposições compostas abaixo.</p>
+<p>(a) (Rosen 1.1.27, item (c)) (p ∨ ¬q) → q): </p>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th align="center">p</th>
+<th align="center">q</th>
+<th align="center">¬q</th>
+<th align="center">(p ∨ ¬q)</th>
+<th align="center">(p ∨ ¬q) → q)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">v</td>
+<td align="center">v</td>
+<td align="center">f</td>
+<td align="center">v</td>
+<td align="center">v</td>
+</tr>
+<tr>
+<td align="center">v</td>
+<td align="center">f</td>
+<td align="center">v</td>
+<td align="center">v</td>
+<td align="center">f</td>
+</tr>
+<tr>
+<td align="center">f</td>
+<td align="center">v</td>
+<td align="center">f</td>
+<td align="center">f</td>
+<td align="center">v</td>
+</tr>
+<tr>
+<td align="center">f</td>
+<td align="center">f</td>
+<td align="center">v</td>
+<td align="center">v</td>
+<td align="center">f</td>
+</tr>
+</tbody>
+</table>
+<pre><code>(b) (Rosen 1.1.27, item (e)) (p → q) ↔ (¬q → ¬p)
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path><style>
+:root {
+  --default-font: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+  --font-monospace: 'Source Code Pro', monospace;
+  --background-primary: #ffffff;
+  --background-modifier-border: #ddd;
+  --text-accent: #705dcf;
+  --text-accent-hover: #7a6ae6;
+  --text-normal: #2e3338;
+  --background-secondary: #f2f3f5;
+  --background-secondary-alt: #e3e5e8;
+  --text-muted: #888888;
+}</style>"<marker id="mermaid_arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker>"</svg></button></pre>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>p</strong></th>
+<th align="center"><strong>q</strong></th>
+<th align="center"><strong>¬p</strong></th>
+<th align="center"><strong>¬q</strong></th>
+<th align="center"><strong>(p → q)</strong></th>
+<th align="center"><strong>(¬q → ¬p)</strong></th>
+<th align="center"><strong>(p → q) ↔ (¬q → ¬p)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>v</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>v</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>v</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>v</strong></td>
+</tr>
+</tbody>
+</table>
+<pre><code>(c) (Rosen 1.1.29, item (b)) (p ⊕ q) → (p ∧ q)
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path><style>
+:root {
+  --default-font: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+  --font-monospace: 'Source Code Pro', monospace;
+  --background-primary: #ffffff;
+  --background-modifier-border: #ddd;
+  --text-accent: #705dcf;
+  --text-accent-hover: #7a6ae6;
+  --text-normal: #2e3338;
+  --background-secondary: #f2f3f5;
+  --background-secondary-alt: #e3e5e8;
+  --text-muted: #888888;
+}</style>"<marker id="mermaid_arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker>"</svg></button></pre>
+<table>
+<thead>
+<tr>
+<th align="center">p</th>
+<th align="center">q</th>
+<th align="center">(p ⊕ q)</th>
+<th align="center">(p ∧ q)</th>
+<th align="center">(p ⊕ q) → (p ∧ q)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>v</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>f</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>v</strong></td>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>f</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>f</strong></td>
+<td align="center"><strong>v</strong></td>
+</tr>
+</tbody>
+</table>
+<ol start="10">
+<li dir="auto">
+<p>(Rosen 1.1.38) Dê os valores de cada uma destas expressões.</p>
+<p>(a) 11000 ∧ (01011 ∨ 11011)<br>
+A resposta é 11000</p>
+<p>(c) (01010 ⊕ 11011) ⊕ 01000<br>
+A resposta é 11001</p>
+</li>
+<li dir="auto">
+<p>(Rosen, 8th Edition, 1.2.9) Determine se as seguintes especificações de um sistema são consistentes.</p>
+<p><em>“O sistema está no estado multiusuário se, e somente se, estiver operando normalmente. Se o sistema estiver operando normalmente, o kernel está funcionando. O kernel não está funcionando ou o sistema está no modo de interrupção. Se o sistema não estiver no estado multiusuário, então está no modo de interrupção. O sistema não está no modo de interrupção.”</em></p>
+<p>As especificações desse sistema <strong>não</strong> são consistentes. Pois, seja a seguinte atribuição de variáveis proposicionais:</p>
+<p>p: O sistema esta no estado multiusuário.<br>
+q: O sistema está operando normalmente.<br>
+r: O kernel esta funcionando.<br>
+s: O sistema esta no modo de Interrupção</p>
+<p>E as proposições compostas:</p>
+<ol>
+<li dir="auto">
+<p>O sistema está no estado multiusuário se, e somente se, estiver operando normalmente.<br>
+p ↔ q</p>
+</li>
+<li dir="auto">
+<p>Se o sistema estiver operando normalmente, o kernel está funcionando.<br>
+q→ r</p>
+</li>
+<li dir="auto">
+<p>kernel não está funcionando ou o sistema está no modo de interrupção.<br>
+¬r ∨ s</p>
+</li>
+<li dir="auto">
+<p>Se o sistema não estiver no estado multiusuário, então está no modo de interrupção.<br>
+¬p → s</p>
+</li>
+<li dir="auto">
+<p>O sistema não está no modo de interrupção.<br>
+¬s</p>
+<p>A conjunção das proposições é insatisfazível, ou seja, não existe interpretação que a torne verdadeira.</p>
+</li>
+</ol>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>p</th>
+<th>q</th>
+<th>r</th>
+<th>s</th>
+<th>¬r</th>
+<th>¬s</th>
+<th>p ↔ q</th>
+<th>q→ r</th>
+<th>¬r ∨ s</th>
+<th>¬p → s</th>
+<th>(p ↔ q) ∧ (q → r) ∧ (¬r ∨ s) ∧ (¬p → s) ∧ (¬s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+</tr>
+<tr>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>v</td>
+<td>f</td>
+</tr>
+<tr>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>v</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+</tr>
+<tr>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+</tr>
+<tr>
+<td>v</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+</tr>
+<tr>
+<td>v</td>
+<td>f</td>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>f</td>
+<td>v</td>
+<td>f</td>
+<td>v</td>
+<td>f</td>
+</tr>
+<tr>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+</tr>
+<tr>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+</tr>
+<tr>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+</tr>
+<tr>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>f</td>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+<td>f</td>
+</tr>
+<tr>
+<td>f</td>
+<td>v</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+</tr>
+<tr>
+<td>f</td>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+</tr>
+<tr>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+</tr>
+<tr>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+<td>f</td>
+</tr>
+<tr>
+<td>f</td>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+</tr>
+<tr>
+<td>f</td>
+<td>f</td>
+<td>f</td>
+<td>f</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>v</td>
+<td>f</td>
+<td>f</td>
+</tr>
+</tbody>
+</table>
+    </body>
+</html>
