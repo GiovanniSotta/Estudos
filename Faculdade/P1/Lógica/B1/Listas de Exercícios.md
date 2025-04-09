@@ -58,11 +58,12 @@
     Escreva as seguintes proposições utilizando _p_, _q_, _r_ e conectivos lógicos.
     
     (a) As bagas estão maduras ao longo da trilha, mas os ursos-cinzentos não são vistos na área.
-	    r 
+	    r ∧ ¬p
     (b) Ursos-cinzentos não são vistos na área e fazer caminhada na trilha é seguro, mas as bagas estão maduras ao longo da trilha.
+	    ¬p ∧ q ∧ r
     
     (c) Se as bagas estão maduras ao longo da trilha, fazer caminhada é seguro se, e somente se, ursos-cinzentos não forem vistos na área.
-    
+	    
     (d) Não é seguro fazer caminhada na trilha, mas os ursos-cinzentos não são vistos na área e as bagas ao longo da trilha estão maduras.
     
     (e) Para a caminhada ser segura, é necessário, mas não suficiente, que as bagas não estejam maduras ao longo da trilha e que os ursos-cinzentos não sejam vistos na área.
