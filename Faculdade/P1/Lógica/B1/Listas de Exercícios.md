@@ -67,9 +67,9 @@
     (d) Não é seguro fazer caminhada na trilha, mas os ursos-cinzentos não são vistos na área e as bagas ao longo da trilha estão maduras.
 		¬q ∧ ¬p ∧ r
     (e) Para a caminhada ser segura, é necessário, mas não suficiente, que as bagas não estejam maduras ao longo da trilha e que os ursos-cinzentos não sejam vistos na área.
-	    (¬r ∧ ¬p) → q
+	    q → (¬r ∧ ¬p)
     (f) Caminhada não é segura ao longo da trilha sempre que os ursos-cinzentos são vistos na área e as bagas estão maduras ao longo da trilha.
-    
+	    (p ∧ r) → ¬q
 5. (Rosen 1.1.13) Determine se cada uma destas proposições condicionais é verdadeira ou falsa.
     
     (a) Se 1 + 1 = 2, então 2 + 2 = 5.
