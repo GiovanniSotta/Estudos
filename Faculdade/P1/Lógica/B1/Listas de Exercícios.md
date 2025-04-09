@@ -79,11 +79,11 @@
     (c) Se 1 + 1 = 3, então 2 + 2 = 5.
 	    Verdadeira.
     (d) Se macacos puderem voar, então 1 + 1 = 3.
-	    Verdadeira
+	    Verdadeira.
 6. (Rosen 1.1.17) Reescreva cada sentença em português explicitando o que ela significa caso o “ou” utilizado seja inclusivo (ou seja, uma disjunção) e o que ela significa caso o “ou” utilizado seja exclusivo. Quais dos significados do “ou” você acha que o autor queria usar?
     
     (a) Para cursar matemática discreta, você deve ter tido cálculo ou um curso de ciência da computação.
-    
+	    Ou inclusivo. Pois, tanto quem tiver cursado cálculo ou ciência da computação, poderá cursar matemática discreta. Até msm quem cursou os 2. 
     (b) Quando você compra um novo carro da Companhia Acme Motor, você pega de volta $2.000 ou um empréstimo de 2%.
     
 7. (Rosen 1.1.19) Escreva cada uma das proposições abaixo na forma _“se p, então q”_ em português.
