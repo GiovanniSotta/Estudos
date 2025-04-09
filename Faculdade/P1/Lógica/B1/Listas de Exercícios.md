@@ -46,7 +46,7 @@
     (e) Se está abaixo de zero, está também nevando.
 	    p → q
     (f) Está ou nevando ou abaixo de zero, mas não está nevando se estiver abaixo de zero.
-	    (p ⊕ q) ∨ (p → ¬q)
+	    (p ∨ q) ∧ (p → ¬q)
     (g) Para que esteja nevando, é necessário e suficiente que esteja abaixo de zero.
 	    p ↔ q
 4. (Rosen 1.1.11) Sejam p, q e r as seguintes proposições:
