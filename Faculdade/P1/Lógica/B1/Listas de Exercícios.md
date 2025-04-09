@@ -83,13 +83,13 @@
 6. (Rosen 1.1.17) Reescreva cada sentença em português explicitando o que ela significa caso o “ou” utilizado seja inclusivo (ou seja, uma disjunção) e o que ela significa caso o “ou” utilizado seja exclusivo. Quais dos significados do “ou” você acha que o autor queria usar?
     
     (a) Para cursar matemática discreta, você deve ter tido cálculo ou um curso de ciência da computação.
-	    Ou inclusivo. Pois, tanto quem tiver cursado cálculo ou ciência da computação, poderá cursar matemática discreta. Até msm quem cursou os 2. 
+	    Ou inclusivo. Pois, você pode cursar matemática discreta se tiver feito cálculo, ciência da computação ou ambos.
     (b) Quando você compra um novo carro da Companhia Acme Motor, você pega de volta $2.000 ou um empréstimo de 2%.
-    
+	    Ou exclusivo. Pois, ele ele te da uma escolha, ou vc pega os $2.000 de volta, ou um empréstimo de 2%, mas nunca os dois.
 7. (Rosen 1.1.19) Escreva cada uma das proposições abaixo na forma _“se p, então q”_ em português.
     
     (a) Neva sempre que o vento sopra no Nordeste.
-    
+	    Se o vento sopra no Nordeste então neva.
     (d) É necessário andar 8 quilômetros para chegar ao topo do monte Roraima.
     
     (e) Para conseguir ser efetivado como professor, é suficiente ser famoso na universidade.
