@@ -190,11 +190,23 @@ s: O sistema esta no modo de Interrupção
 	¬s
 
 
-| s   | ¬s  | r   | ¬r  | q   | p   |     |
-| --- | --- | --- | --- | --- | --- | --- |
-| f   | v   | f   | v   | f   | f   |     |
-|     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |
+| p   | q   | r   | s   | p ↔ q | q→ r | ¬r ∨ s | ¬p → s | ¬s  |
+| --- | --- | --- | --- | ----- | ---- | ------ | ------ | --- |
+| v   | v   | v   | v   | v     | v    |        |        | f   |
+| v   | v   | v   | f   | v     | v    |        |        | v   |
+| v   | v   | f   | v   | v     | f    |        |        | f   |
+| v   | v   | f   | f   | v     | f    |        |        | v   |
+| v   | f   | v   | v   | f     | v    |        |        | f   |
+| v   | f   | v   | f   | f     | v    |        |        | v   |
+| v   | f   | f   | v   | f     | v    |        |        | f   |
+| v   | f   | f   | f   | f     | v    |        |        | v   |
+| f   | v   | v   | v   | f     | v    |        |        | f   |
+| f   | v   | v   | f   | f     | v    |        |        | v   |
+| f   | v   | f   | v   | f     | f    |        |        | f   |
+| f   | v   | f   | f   | f     | f    |        |        | v   |
+| f   | f   | v   | v   | v     | v    |        |        | f   |
+| f   | f   | v   | f   | v     | v    |        |        | v   |
+| f   | f   | f   | v   | v     | v    |        |        | f   |
+| f   | f   | f   | f   | v     | v    |        |        | v   |
 
 
