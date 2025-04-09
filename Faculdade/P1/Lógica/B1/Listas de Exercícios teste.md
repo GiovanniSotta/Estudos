@@ -163,12 +163,33 @@
 10. (Rosen 1.1.38) Dê os valores de cada uma destas expressões.
     
     (a) 11000 ∧ (01011 ∨ 11011)
-		A resposta é 11000
+	1. x = 11000
+	2. y = 01011
+	3. z = 11011
+		
 
+|   x   |   y   |   z   | y OR z | x AND ( y OR z ) |
+| :---: | :---: | :---: | :----: | :--------------: |
+| **1** | **0** | **1** | **1**  |      **1**       |
+| **1** | **1** | **1** | **1**  |      **1**       |
+| **0** | **0** | **0** | **0**  |      **0**       |
+| **0** | **1** | **1** | **1**  |      **0**       |
+| **0** | **1** | **1** | **1**  |      **0**       |
 	(c) (01010 ⊕ 11011) ⊕ 01000
-		A resposta é 11011
+		1. x = 01010
+		2. y = 11011
+		3. z = 01000
+
+|  x  |  y  |  z  | x XOR y | (x XOR y) XOR z |
+| :-: | :-: | :-: | :-----: | :-------------: |
+|  0  |  1  |  0  |    1    |        1        |
+|  1  |  1  |  1  |    0    |        1        |
+|  0  |  0  |  0  |    0    |        0        |
+|  1  |  1  |  0  |    0    |        0        |
+|  0  |  1  |  0  |    1    |        1        |
+
     
-12. (Rosen, 8th Edition, 1.2.9) Determine se as seguintes especificações de um sistema são consistentes.
+11. (Rosen, 8th Edition, 1.2.9) Determine se as seguintes especificações de um sistema são consistentes.
     
 
 _“O sistema está no estado multiusuário se, e somente se, estiver operando normalmente. Se o sistema estiver operando normalmente, o kernel está funcionando. O kernel não está funcionando ou o sistema está no modo de interrupção. Se o sistema não estiver no estado multiusuário, então está no modo de interrupção. O sistema não está no modo de interrupção.”_
