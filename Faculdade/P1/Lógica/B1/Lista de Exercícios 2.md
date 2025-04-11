@@ -58,8 +58,11 @@
     (a) (p∨q∨¬r)∧(p∨¬q∨¬s)∧(p∨¬r∨¬s)∧(¬p∨¬q∨¬s)∧(p∨q∨¬s)
     p = v
 	q = f
+	r = v ou f
+	s = v ou f
     (b) (¬p∨¬q∨r)∧(¬p∨q∨¬s)∧(p∨¬q∨¬s)∧(¬p∨¬r∨¬s)∧(p∨q∨¬r)∧(p∨¬r∨¬s)
     r = v
     q = v
     p = v
-    s =f
+    s =f 
+    As duas proposições compostas são satisfazíveis pois há pelo menos uma atribuição de valores de verdade que torna cada uma verdadeiro no todo.
