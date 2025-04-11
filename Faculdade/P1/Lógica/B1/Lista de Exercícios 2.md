@@ -25,7 +25,8 @@
     
     (a) (Rosen 1.2.20) ¬(p⊕q) e p↔q são logicamente equivalentes.
 	
-	 p ↔ q ≡ (p → q) ∧ (q → p)
+	 p ↔ q ≡ (p → q) ∧ (q → p) - Equivalência Bicondicionais
+	 p ↔ q ≡ (¬p ∨ q) ∧ ( ¬q ∨ p) - Equivalência Condicionais
 	 ¬(p⊕q) ≡
 
     (b) (Rosen 1.2.25) (p→r)∨(q→r) e (p∧q)→r são logicamente equivalentes.
