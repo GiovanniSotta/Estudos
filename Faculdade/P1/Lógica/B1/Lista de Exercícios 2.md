@@ -63,6 +63,7 @@
 	¬((¬p ∨ q)∧(¬q ∨ r)) ∨ r
 	Lei de morgan:
 	¬(¬p ∨ q)∨¬(¬q ∨ r)∨ r ≡ ( p ∧ ¬q) ∨( q ∨ ¬r) ∨ r
+	Portanto ( p ∧ ¬q) ∨( q ∨ ¬r) ∨ r é uma tautologia, pois, nao importa o valor de "r" a expressão sempre será verdadeira
     
 5. (Rosen 1.2.60) Quais das proposições compostas abaixo são satisfazíveis?
     
