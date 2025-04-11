@@ -27,9 +27,16 @@
 	
 	 p ↔ q ≡ (p → q) ∧ (q → p) - Equivalência Bicondicionais
 	 p ↔ q ≡ (¬p ∨ q) ∧ ( ¬q ∨ p) - Equivalência Condicionais
-	  ¬(p ↔ q) ≡ ¬((¬p ∨ q) ∧ ( ¬q ∨ p))
-	 ¬(p ↔ q) ≡¬(¬p ∨ q) ∨ ¬( ¬q ∨ p)
-	 ¬(p ↔ q) ≡(p ∧ ¬q) ∨ ( q ∧ ¬p)
+	 ¬(p ↔ q )≡ ¬((¬p ∨ q) ∧ ( ¬q ∨ p)) ≡ (p ∧ ¬q) ∨ ( q ∧ ¬p) ≡ p ⊕ q - Lei de Morgan
+	 Ou seja,  
+	 ¬(p ↔ q ) ≡ p ⊕ q
+	 ¬(p ⊕ q) ≡ ¬(¬(p ↔ q )) ≡ (p ↔ q )
+	 Entao,
+	 p ↔ q ≡  ¬(p ⊕ q)
+	  
+	  
+	 ¬(p ↔ q) ≡ ¬((¬p ∨ q) ∧ ( ¬q ∨ p))
+	¬(p ↔ q) ≡¬(¬p ∨ q) ∨ ¬( ¬q ∨ p)
 	¬(p ↔ q) ≡(p ∧ ¬q) ∨ ( q ∧ ¬p)
     (b) (Rosen 1.2.25) (p→r)∨(q→r) e (p∧q)→r são logicamente equivalentes.
 	    
