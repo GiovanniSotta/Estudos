@@ -165,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Faculdade/P1/Lógica/B1/Lista de Exercícios 2.md",
+                "file": "Síbolos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Lista de Exercícios 2"
+              "title": "Sumário de Síbolos"
             }
           },
           {
@@ -216,10 +216,10 @@
       "markdown-importer:Abrir importador Markdown": false
     }
   },
-  "active": "33c0591b249feb6a",
+  "active": "9658783d7fc711dc",
   "lastOpenFiles": [
-    "Síbolos.md",
     "Faculdade/P1/Lógica/B1/Lista de Exercícios 2.md",
+    "Síbolos.md",
     "Faculdade/P1/Lógica/B1/Listas de Exercícios.md",
     "Faculdade/P1/Lógica/B1/Exercícios iniciados em Sala.md",
     "Faculdade/P1/Lógica/B1/Listas de Exercícios teste.md",

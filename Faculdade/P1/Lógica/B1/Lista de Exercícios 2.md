@@ -36,7 +36,6 @@
 	  
     (b) (Rosen 1.2.25) (p→r)∨(q→r) e (p∧q)→r são logicamente equivalentes.
 		(p→r)∨(q→r) ≡ (¬p ∨ r) ∨ (¬q ∨ r) ≡ (p∧q)→r
-		
 3. (Rosen 1.2.31) Mostre que (p→q)→r e p→(q→r) não são logicamente equivalentes.
 
 | p   | q   | r   | (p→q) | (q→r) | (p→q)→r | p→(q→r) |
@@ -116,21 +115,61 @@ Qual foi o mais fácil neste caso?
 | --- | --- | --- | ----- | ----- | ----- | ------------- | ------------------- |
 | v   | v   | v   | v     | v     | v     | v             | v                   |
 | v   | v   | f   | v     | f     | f     | f             | v                   |
-| v   | f   | v   | f     | v     | v     | f             | f                   |
+| v   | f   | v   | f     | v     | v     | f             | v                   |
 | v   | f   | f   | f     | v     | f     | f             | v                   |
 | f   | v   | v   | v     | v     | v     | v             | v                   |
-| f   | v   | f   | v     | f     | v     | f             | f                   |
+| f   | v   | f   | v     | f     | v     | f             | v                   |
 | f   | f   | v   | v     | v     | v     | v             | v                   |
 | f   | f   | f   | v     | v     | v     | v             | v                   |
 
     - (c) [p∧(p→q)]→q
+		
+
+| p   | q   | (p→q) | p∧(p→q) | [p∧(p→q)]→q |
+| --- | --- | ----- | ------- | ----------- |
+| v   | v   | v     | v       | v           |
+| v   | f   | f     | f       | v           |
+| f   | v   | v     | f       | v           |
+| f   | f   | v     | f       | v           |
+
     - (d) [(p∨q)∧(p→r)∧(q→r)]→r
-2. (Rosen 1.2.16) Mostre que p↔q e (p∧q)∨(¬p∧¬q) são equivalentes.
     
+
+| p   | q   | r   | (p∨q) | (p→r) | (q→r) | [(p∨q)∧(p→r)∧(q→r)] | [(p∨q)∧(p→r)∧(q→r)]→r<br> |
+| --- | --- | --- | ----- | ----- | ----- | ------------------- | ------------------------- |
+| v   | v   | v   | v     | v     | v     | v                   | v                         |
+| v   | v   | f   | v     | f     | f     | f                   | v                         |
+| v   | f   | v   | v     | v     | v     | v                   | v                         |
+| v   | f   | f   | v     | f     | v     | f                   | v                         |
+| f   | v   | v   | v     | v     | v     | v                   | v                         |
+| f   | v   | f   | v     | v     | f     | f                   | v                         |
+| f   | f   | v   | f     | v     | v     | f                   | v                         |
+| f   | f   | f   | f     | v     | v     | f                   | v                         |
+
+
+2. (Rosen 1.2.16) Mostre que p↔q e (p∧q)∨(¬p∧¬q) são equivalentes.
+		
+    
+| p   | q   | (p∧q) | (¬p∧¬q) | (p∧q)∨(¬p∧¬q) | p↔q |
+| --- | --- | ----- | ------- | ------------- | --- |
+| v   | v   | v     | f       | v             | v   |
+| v   | f   | f     | f       | f             | f   |
+| f   | v   | f     | f       | f             | f   |
+| f   | f   | f     | v       | v             | v   |
 3. (Rosen 1.2.20) Mostre que ¬(p⊕q) e p↔q são logicamente equivalentes.
     
+
+| p   | q   | p⊕q | ¬(p⊕q) | p↔q |
+| --- | --- | --- | ------ | --- |
+| v   | v   | f   | v      | v   |
+| v   | f   | v   | f      | f   |
+| f   | v   | v   | f      | f   |
+| f   | f   | f   | v      | v   |
 4. (Rosen 1.2.60) Indique se a proposição a seguir é satisfazíveis ou não.
     
     - (a) (p∨q∨¬r)∧(p∨¬q∨¬s)∧(p∨¬r∨¬s)∧(¬p∨¬q∨¬s)∧(p∨q∨¬s)
-
-###
+		p = v
+		q = f
+		r = v/f
+		s = v/f
+	É satisfazível por tem pelos menos 1 atribuição de valores de verdade para as variáveis que deixa a expressão verdadeira.
