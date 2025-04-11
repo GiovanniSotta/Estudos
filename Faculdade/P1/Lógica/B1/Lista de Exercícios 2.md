@@ -63,8 +63,26 @@
 	¬((¬p ∨ q)∧(¬q ∨ r)) ∨ r
 	Lei de morgan:
 	¬(¬p ∨ q)∨¬(¬q ∨ r)∨ r ≡ ( p ∧ ¬q) ∨( q ∨ ¬r) ∨ r
-	Portanto ( p ∧ ¬q) ∨( q ∨ ¬r) ∨ r é uma tautologia, pois, nao importa o valor de "r" a expressão sempre será verdadeira
-    
+	Portanto ( p ∧ ¬q) ∨( q ∨ ¬r) ∨ r é uma tautologia, pois, nao importa o valor de "r" a expressão sempre será verdadeira.
+
+	Agora por tabela de verdade:
+	
+    (p→q)∧(q→r)→(p→r)
+
+| p   | q   | r   | (p→q) | (q→r) | (p→r) | (p→q)∧(q→r) | (p→q)∧(q→r)→(p→r) |
+| --- | --- | --- | ----- | ----- | ----- | ----------- | ----------------- |
+| v   | v   | v   | v     | v     | v     | v           | v                 |
+| v   | v   | f   | v     | f     | f     | f           | v                 |
+| v   | f   | v   | f     | v     | v     | f           | v                 |
+| v   | f   | f   | f     | v     | f     | f           | v                 |
+| f   | v   | v   | v     | v     | v     | v           | v                 |
+| f   | v   | f   | v     | f     | v     | v           | v                 |
+| f   | f   | v   | v     | v     | v     | v           | v                 |
+| f   | f   | f   | v     | v     | v     | v           | v                 |
+Por tabela ta vdd tbm temos o msm resultado. sendo esta expressão uma tautologia.
+Qual foi o mais fácil neste caso?
+	O mais facil de provar a tautologia foi a tabela da verdade, ja que, pois por ser um método que quebra a expressão em partes, fica mais facil de encontrar a tautologia. Porem caso o numero de variáveis subisse para mais de 3, já ficaria muito trabalhoso resolver por este método.
+
 5. (Rosen 1.2.60) Quais das proposições compostas abaixo são satisfazíveis?
     
     (a) (p∨q∨¬r)∧(p∨¬q∨¬s)∧(p∨¬r∨¬s)∧(¬p∨¬q∨¬s)∧(p∨q∨¬s)
