@@ -52,6 +52,17 @@
 (p→q)→r e p→(q→r) não são logicamente equivalentes. Pois ((p→q)→r) ⟺ (p→(q→r)) não uma tautologia
 
 4. (Rosen 1.2.29) Mostre que (p→q)∧(q→r)→(p→r) é uma tautologia. (**Obs:** Considere usar o método de manipulação de conectivos lógicos e o método de tabela da verdade. Qual foi o mais fácil neste caso?)
+
+	Usando a equivalência condicional: p → q ≡ ¬p ∨ q
+	p → q ≡ ¬p ∨ q
+	q → r ≡ ¬q ∨ r
+	p → r ≡ ¬p ∨ r
+	substituindo fica:
+	(¬p ∨ q)∧(¬q ∨ r)→(¬p ∨ r)
+	usando a mesma equivalência condicional:
+	¬((¬p ∨ q)∧(¬q ∨ r)) ∨ r
+	Lei de morgan:
+	¬(¬p ∨ q)∨¬(¬q ∨ r)∨ r ≡ ( p ∧ ¬q) ∨( q ∨ ¬r) ∨ r
     
 5. (Rosen 1.2.60) Quais das proposições compostas abaixo são satisfazíveis?
     
