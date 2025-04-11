@@ -56,5 +56,10 @@
 5. (Rosen 1.2.60) Quais das proposições compostas abaixo são satisfazíveis?
     
     (a) (p∨q∨¬r)∧(p∨¬q∨¬s)∧(p∨¬r∨¬s)∧(¬p∨¬q∨¬s)∧(p∨q∨¬s)
-    
+    p = v
+	q = f
     (b) (¬p∨¬q∨r)∧(¬p∨q∨¬s)∧(p∨¬q∨¬s)∧(¬p∨¬r∨¬s)∧(p∨q∨¬r)∧(p∨¬r∨¬s)
+    r = v
+    q = v
+    p = v
+    s =f
