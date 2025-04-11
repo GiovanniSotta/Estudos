@@ -39,7 +39,17 @@
 		
 3. (Rosen 1.2.31) Mostre que (p→q)→r e p→(q→r) não são logicamente equivalentes.
 
-    
+| p   | q   | r   | (p→q) | (q→r) | (p→q)→r | p→(q→r) |
+| --- | --- | --- | ----- | ----- | ------- | ------- |
+| v   | v   | v   | v     | v     | v       | v       |
+| v   | v   | f   | v     | f     | f       | f       |
+| v   | f   | v   | f     | v     | f       | v       |
+| v   | f   | f   | f     | v     | f       | v       |
+| f   | v   | v   | v     | v     | v       | v       |
+| f   | v   | f   | v     | f     | f       | v       |
+| f   | f   | v   | v     | v     | v       | v       |
+| f   | f   | f   | v     | v     | f       | v       |
+(p→q)→r e p→(q→r) não são logicamente equivalentes. Pois de acordo com a tabela da verdade, há combinações de valores de verdade para p, q e r que dão à (p→q)→r e p→(q→r) valores de verdade diferentes
 
 4. (Rosen 1.2.29) Mostre que (p→q)∧(q→r)→(p→r) é uma tautologia. (**Obs:** Considere usar o método de manipulação de conectivos lógicos e o método de tabela da verdade. Qual foi o mais fácil neste caso?)
     
