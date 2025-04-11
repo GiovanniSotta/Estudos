@@ -27,10 +27,10 @@
 	
 	 p ↔ q ≡ (p → q) ∧ (q → p) - Equivalência Bicondicionais
 	 p ↔ q ≡ (¬p ∨ q) ∧ ( ¬q ∨ p) - Equivalência Condicionais
-	  p ↔ q ≡ (V ∨ F) ∧ ( V ∨ F)
-	 
-	 ¬(p⊕q) ≡
-
+	  ¬(p ↔ q) ≡ ¬((¬p ∨ q) ∧ ( ¬q ∨ p))
+	 ¬(p ↔ q) ≡¬(¬p ∨ q) ∨ ¬( ¬q ∨ p)
+	 ¬(p ↔ q) ≡(p ∧ ¬q) ∨ ( q ∧ ¬p)
+	¬(p ↔ q) ≡(p ∧ ¬q) ∨ ( q ∧ ¬p)
     (b) (Rosen 1.2.25) (p→r)∨(q→r) e (p∧q)→r são logicamente equivalentes.
 	    
 3. (Rosen 1.2.31) Mostre que (p→q)→r e p→(q→r) não são logicamente equivalentes.
