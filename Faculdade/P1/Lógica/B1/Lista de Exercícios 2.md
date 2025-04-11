@@ -35,9 +35,11 @@
 	 p ↔ q ≡  ¬(p ⊕ q)
 	  
     (b) (Rosen 1.2.25) (p→r)∨(q→r) e (p∧q)→r são logicamente equivalentes.
-	    
+		(p→r)∨(q→r)≡(p∧q)→r
 3. (Rosen 1.2.31) Mostre que (p→q)→r e p→(q→r) não são logicamente equivalentes.
+
     
+
 4. (Rosen 1.2.29) Mostre que (p→q)∧(q→r)→(p→r) é uma tautologia. (**Obs:** Considere usar o método de manipulação de conectivos lógicos e o método de tabela da verdade. Qual foi o mais fácil neste caso?)
     
 5. (Rosen 1.2.60) Quais das proposições compostas abaixo são satisfazíveis?
