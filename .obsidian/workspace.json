@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Faculdade/P1/Lógica/B1/Lista de Exercícios 2.md",
+                "file": "Faculdade/P1/Lógica/B1/Listas de Exercícios.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lista de Exercícios 2"
+              "title": "Listas de Exercícios"
             }
           }
         ]
@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5,
-    "collapsed": true
+    "width": 298.5
   },
   "right": {
     "id": "70c85a7c1ddfb393",
@@ -165,13 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Síbolos.md",
+                "file": "Faculdade/P1/Lógica/B1/Listas de Exercícios.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Síbolos"
+              "title": "Sumário de Listas de Exercícios"
             }
           },
           {
@@ -216,12 +215,12 @@
       "markdown-importer:Abrir importador Markdown": false
     }
   },
-  "active": "9658783d7fc711dc",
+  "active": "33c0591b249feb6a",
   "lastOpenFiles": [
-    "Faculdade/P1/Lógica/B1/Lista de Exercícios 2.md",
     "Síbolos.md",
     "Faculdade/P1/Lógica/B1/Listas de Exercícios.md",
     "Faculdade/P1/Lógica/B1/Exercícios iniciados em Sala.md",
+    "Faculdade/P1/Lógica/B1/Lista de Exercícios 2.md",
     "Faculdade/P1/Lógica/B1/Listas de Exercícios teste.md",
     "Faculdade/P1/Lógica/B1/Listas de Exercícios.html",
     "Sem título.md",

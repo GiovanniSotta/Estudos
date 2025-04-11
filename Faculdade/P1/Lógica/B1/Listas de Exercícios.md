@@ -1,3 +1,4 @@
+# Listas de exercícios 1
 1. (Rosen 1.1.1) Quais das sentenças abaixo são proposições? Qual o valor de verdade das que são proposições?
     
     (a) Curitiba é a capital do Paraná.
@@ -213,3 +214,155 @@
 | f   | f   | v   | f   | f   | v   | v     | v    | f      | f      | f                                              |
 | f   | f   | f   | v   | v   | f   | v     | v    | v      | v      | f                                              |
 | f   | f   | f   | f   | v   | v   | v     | v    | v      | f      | f                                              |
+
+# Lista de exercícios em sala:
+
+1. (Rosen 1.1.6) Considere que p e q são proposições:
+    
+    p: "A eleição está decidida"
+    
+    q: "Os votos foram contados"
+    
+
+Expresse cada uma destas proposições compostas como uma sentença em português:
+
+- (a) ¬p
+- R: A eleição não está decidida.
+- (b) p∨q
+- A eleição está decidida ou os votos foram contados
+- (c) ¬p∧q
+- A eleição não está decidida ou os votos foram contados
+- (d) q→p
+- Se os votos foram contados, então a eleição está decidida
+- (e) ¬q→¬p
+- Se os votos não foram contados, então a eleição não está decidida
+- (f) ¬p→¬q
+- Se a eleição não esta decidida, então os votos não foram contados.
+- (g) p↔q
+- A eleição estão decidida se, e somente, se os votos foram contados
+- (h) ¬q∨(¬p∧q)
+- Os votos não foram contados, ou a eleição não está decidida e os votos foram contados.
+
+2. (Rosen 1.1.10) Considere que p, q e r são as proposições:
+    
+    p: Você tira um A no exame final
+    
+    q: Você faz todos os exercícios deste livro
+    
+    r: Você tira um A nesta matéria
+    
+
+Expresse estas proposições usando p, q, r e conectivos lógicos.
+
+- (a) Você tira um A nesta matéria, mas não faz todos os exercícios deste livro.
+- r∧¬q
+- (b) Você tira um A no exame final, faz todos os exercícios deste livro e tira um A nesta matéria.
+- p∧q∧r
+- (c) Tirar um A nesta matéria é necessário para tirar um A no exame final.
+- p→r
+- (d) Você tira um A no exame final, mas não faz todos os exercícios deste livro; no entanto, tira um A nesta matéria.
+- p∧¬q∧r
+- (e) Tirar um A no exame final e fazer todos os exercícios deste livro é suficiente para tirar A nesta matéria.
+- (p∧q)→r
+- (f) Você vai tirar um A nesta matéria se, e somente se você fizer todos os exercícios deste livro ou você tirar um A no exame final.
+- r↔(q∨p)
+
+3. (Rosen 1.1.12) Determine se estes bicondicionais são verdadeiros ou falsos.
+
+- (a) 2 + 2 = 4 se e somente se 1 + 1 = 2
+- Verdadeiro
+- (b) 1 + 1 = 2 se e somente se 2 + 3 = 4
+- Falso.
+- (c) 1 + 1 = 3 se e somente se macacos puderem voar
+- Verdadeiro
+- (d) 0 > 1 se e somente se 2 > 1
+- Falso
+
+4. (Rosen 1.1.28) Construa uma tabela da verdade para cada uma das proposições compostas.
+
+- (a) p→¬p
+- 
+
+|   p   |  ¬p   | p→¬p  |
+| :---: | :---: | :---: |
+| **v** | **f** | **f** |
+| **f** | **v** | **v** |
+
+- (b) p↔¬p
+- 
+
+|  p  | ¬p  | p↔¬p |
+| :-: | :-: | :--: |
+|  v  |  f  |  f   |
+|  f  |  v  |  f   |
+
+
+- (c) p⊕(p∨q)
+- 
+
+|  p  |  q  | p∨q | p⊕(p∨q) |
+| :-: | :-: | :-: | :-----: |
+|  v  |  v  |  v  |    f    |
+|  v  |  f  |  v  |    f    |
+|  f  |  v  |  v  |    v    |
+|  f  |  f  |  f  |    f    |
+
+- (d) (p∧q)→(p∨q)
+- 
+
+| **p** | **q** | **p∧q** | **p∨q** | **(p∧q)→(p∨q)** |
+| :---: | :---: | :-----: | :-----: | :-------------: |
+| **v** | **v** |  **v**  |  **v**  |      **v**      |
+| **v** | **f** |  **f**  |  **v**  |      **v**      |
+| **f** | **v** |  **f**  |  **v**  |      **v**      |
+| **f** | **f** |  **f**  |  **f**  |      **v**      |
+
+- (e) (q→¬p)↔(p↔q)
+- 
+
+|  p  |  q  | ¬p  | q→¬p | p↔q | (q→¬p)↔(p↔q) |
+| :-: | :-: | :-: | :--: | :-: | :----------: |
+|  v  |  v  |  f  |  f   |  v  |      f       |
+|  v  |  f  |  f  |  v   |  f  |      f       |
+|  f  |  v  |  v  |  v   |  f  |      f       |
+|  f  |  f  |  v  |  v   |  v  |      v       |
+
+- (f) (p↔q)⊕(q↔¬q)
+- 
+
+| **p** | **q** | **¬q** | **p↔q** | **q↔¬q** | **(p↔q)⊕(q↔¬q)** |
+| :---: | :---: | :----: | :-----: | :------: | :--------------: |
+| **v** | **v** | **f**  |  **v**  |  **f**   |      **v**       |
+| **v** | **f** | **v**  |  **f**  |  **f**   |      **f**       |
+| **f** | **v** | **f**  |  **f**  |  **f**   |      **f**       |
+| **f** | **f** | **v**  |  **v**  |  **f**   |      **v**       |
+
+
+5. (Rosen 1.1.50) Este sistema é consistente? _"Sempre que o software do sistema está sendo atualizado, os usuários não podem acessar os arquivos do sistema. Se os usuários podem acessar os arquivos do sistema, então eles podem salvar novos arquivos. Se os usuários não podem salvar novos arquivos, então o software do sistema não está sendo atualizado"_.
+
+p: O software do sistema está sendo atualizado
+q: Os usuários podem acessar os arquivos do sistema.
+r: O usuário podem salvar novos arquivos.
+
+Sempre que o software do sistema está sendo atualizado, os usuários não podem acessar os arquivos do sistema.
+p→¬q
+Se os usuários podem acessar os arquivos do sistema, então eles podem salvar novos arquivos.
+q→r
+Se os usuários não podem salvar novos arquivos, então o software do sistema não está sendo atualizado
+¬r→¬p
+
+(p→¬q)∧(q→r)∧(¬r→¬p)
+
+| p   | q   | r   | ¬p  | ¬q  | ¬r  | p→¬q | q→r | ¬r→¬p | (p→¬q)∧(q→r)∧(¬r→¬p) |
+| --- | --- | --- | --- | --- | --- | ---- | --- | ----- | -------------------- |
+| v   | v   | v   | f   | f   | f   | f    | f   | v     | f                    |
+| v   | v   | f   | f   | f   | v   | f    | v   | f     | f                    |
+| v   | f   | v   | f   | v   | f   | v    | v   | v     | f                    |
+| v   | f   | f   | f   | v   | v   | v    | v   | f     | f                    |
+| f   | v   | v   | v   | f   | f   | v    | f   | v     | f                    |
+| f   | v   | f   | v   | f   | v   | v    | v   | v     | v                    |
+| f   | f   | v   | v   | v   | f   | v    | v   | v     | v                    |
+| f   | f   | f   | v   | v   | v   | v    | v   | v     | v                    |
+
+Sim, o sistema é consistente.
+
