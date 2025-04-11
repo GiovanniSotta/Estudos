@@ -27,7 +27,7 @@
 	
 	 p ↔ q ≡ (p → q) ∧ (q → p) - Equivalência Bicondicionais
 	 p ↔ q ≡ (¬p ∨ q) ∧ ( ¬q ∨ p) - Equivalência Condicionais
-	 ¬(p ↔ q )≡ ¬((¬p ∨ q) ∧ ( ¬q ∨ p)) ≡ (p ∧ ¬q) ∨ ( q ∧ ¬p) ≡ p ⊕ q - Lei de Morgan
+	 ¬(p ↔ q )≡ ¬[(¬p ∨ q) ∧ ( ¬q ∨ p)] ≡ (p ∧ ¬q) ∨ ( q ∧ ¬p) ≡ p ⊕ q - Lei de Morgan
 	 Ou seja,  
 	 ¬(p ↔ q ) ≡ p ⊕ q
 	 ¬(p ⊕ q) ≡ ¬(¬(p ↔ q )) ≡ (p ↔ q )
@@ -49,7 +49,7 @@
 | f   | v   | f   | v     | f     | f       | v       |
 | f   | f   | v   | v     | v     | v       | v       |
 | f   | f   | f   | v     | v     | f       | v       |
-(p→q)→r e p→(q→r) não são logicamente equivalentes. Pois ((p→q)→r) ⟺ (p→(q→r)) não uma tautologia
+(p→q)→r e p→(q→r) não são logicamente equivalentes. Pois [(p→q)→r) ⟺ (p→(q→r)] não uma tautologia
 
 4. (Rosen 1.2.29) Mostre que (p→q)∧(q→r)→(p→r) é uma tautologia. (**Obs:** Considere usar o método de manipulação de conectivos lógicos e o método de tabela da verdade. Qual foi o mais fácil neste caso?)
 
@@ -60,7 +60,7 @@
 	substituindo fica:
 	(¬p ∨ q)∧(¬q ∨ r)→(¬p ∨ r)
 	usando a mesma equivalência condicional:
-	¬((¬p ∨ q)∧(¬q ∨ r)) ∨ r
+	¬[(¬p ∨ q)∧(¬q ∨ r)] ∨ r
 	Lei de morgan:
 	¬(¬p ∨ q)∨¬(¬q ∨ r)∨ r ≡ ( p ∧ ¬q) ∨( q ∨ ¬r) ∨ r
 	Portanto ( p ∧ ¬q) ∨( q ∨ ¬r) ∨ r é uma tautologia, pois, nao importa o valor de "r" a expressão sempre será verdadeira.
@@ -97,3 +97,40 @@ Qual foi o mais fácil neste caso?
     s =f 
     As duas proposições compostas são satisfazíveis pois há pelo menos uma atribuição de valores de verdade que torna cada uma verdadeiro no todo.
 # Lista de exercícios feitos em sala
+1. (Rosen 1.2.10) Mostre que cada uma das proposições condicionais a seguir é uma tautologia usando tabela da verdade.
+    
+    - (a) [¬p∧(p∨q)]→q
+	    
+
+| p   | q   | ¬p  | (p∨q) | ¬p∧(p∨q) | [¬p∧(p∨q)]→q |
+| --- | --- | --- | ----- | -------- | ------------ |
+| v   | v   | f   | v     | f        | v            |
+| v   | f   | f   | v     | f        | v            |
+| f   | v   | v   | v     | v        | v            |
+| f   | f   | v   | f     | f        | v            |
+
+    - (b) [(p→q)∧(q→r)]→(p→r)
+	    
+
+| p   | q   | r   | (p→q) | (q→r) | (p→r) | [(p→q)∧(q→r)] | [(p→q)∧(q→r)]→(p→r) |
+| --- | --- | --- | ----- | ----- | ----- | ------------- | ------------------- |
+| v   | v   | v   | v     | v     | v     | v             | v                   |
+| v   | v   | f   | v     | f     | f     | f             | v                   |
+| v   | f   | v   | f     | v     | v     | f             | f                   |
+| v   | f   | f   | f     | v     | f     | f             | v                   |
+| f   | v   | v   | v     | v     | v     | v             | v                   |
+| f   | v   | f   | v     | f     | v     | f             | f                   |
+| f   | f   | v   | v     | v     | v     | v             | v                   |
+| f   | f   | f   | v     | v     | v     | v             | v                   |
+
+    - (c) [p∧(p→q)]→q
+    - (d) [(p∨q)∧(p→r)∧(q→r)]→r
+2. (Rosen 1.2.16) Mostre que p↔q e (p∧q)∨(¬p∧¬q) são equivalentes.
+    
+3. (Rosen 1.2.20) Mostre que ¬(p⊕q) e p↔q são logicamente equivalentes.
+    
+4. (Rosen 1.2.60) Indique se a proposição a seguir é satisfazíveis ou não.
+    
+    - (a) (p∨q∨¬r)∧(p∨¬q∨¬s)∧(p∨¬r∨¬s)∧(¬p∨¬q∨¬s)∧(p∨q∨¬s)
+
+###
