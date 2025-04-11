@@ -81,7 +81,7 @@
 | f   | f   | f   | v     | v     | v     | v           | v                 |
 Por tabela ta vdd tbm temos o msm resultado. sendo esta expressão uma tautologia.
 Qual foi o mais fácil neste caso?
-	O mais facil de provar a tautologia foi a tabela da verdade, ja que, pois por ser um método que quebra a expressão em partes, fica mais facil de encontrar a tautologia. Porem caso o numero de variáveis subisse para mais de 3, já ficaria muito trabalhoso resolver por este método.
+	O mais fácil de provar a tautologia foi a tabela da verdade, já que, por ser um método que quebra a expressão em partes, facilita e simplifica a verificação do valor. Porem, caso o numero de variáveis aumentasse (4 ou mais), já ficaria muito trabalhoso resolver por este método.
 
 5. (Rosen 1.2.60) Quais das proposições compostas abaixo são satisfazíveis?
     
@@ -96,3 +96,4 @@ Qual foi o mais fácil neste caso?
     p = v
     s =f 
     As duas proposições compostas são satisfazíveis pois há pelo menos uma atribuição de valores de verdade que torna cada uma verdadeiro no todo.
+# Lista de exercícios feitos em sala
