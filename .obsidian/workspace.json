@@ -6,7 +6,7 @@
       {
         "id": "ac06e9b9cfb18376",
         "type": "tabs",
-        "dimension": 84.85424588086185,
+        "dimension": 29.368575624082233,
         "children": [
           {
             "id": "33c0591b249feb6a",
@@ -27,7 +27,7 @@
       {
         "id": "528d60d0f8bfa51b",
         "type": "tabs",
-        "dimension": 15.145754119138154,
+        "dimension": 70.63142437591777,
         "children": [
           {
             "id": "9658783d7fc711dc",
@@ -215,10 +215,10 @@
       "markdown-importer:Abrir importador Markdown": false
     }
   },
-  "active": "33c0591b249feb6a",
+  "active": "9658783d7fc711dc",
   "lastOpenFiles": [
-    "Síbolos.md",
     "Faculdade/P1/Lógica/B1/Listas de Exercícios.md",
+    "Síbolos.md",
     "Faculdade/P1/Lógica/B1/Exercícios iniciados em Sala.md",
     "Faculdade/P1/Lógica/B1/Lista de Exercícios 2.md",
     "Faculdade/P1/Lógica/B1/Listas de Exercícios teste.md",
